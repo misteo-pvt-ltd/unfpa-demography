@@ -1,0 +1,43 @@
+from_code,from_label,to_code,to_label,pixel_count,area_ha
+2,Trees,2,Trees,600467,216168.12
+5,Crops,5,Crops,298286,107382.96
+11,Rangeland,11,Rangeland,54526,19629.36
+7,Built,7,Built,25567,9204.12
+2,Trees,11,Rangeland,24660,8877.6
+5,Crops,11,Rangeland,24486,8814.96
+5,Crops,2,Trees,8602,3096.72
+11,Rangeland,2,Trees,8123,2924.28
+1,Water,1,Water,7674,2762.64
+5,Crops,7,Built,6725,2421.0
+2,Trees,5,Crops,6656,2396.16
+11,Rangeland,5,Crops,5384,1938.24
+2,Trees,7,Built,2822,1015.92
+5,Crops,1,Water,1458,524.88
+8,Bare,8,Bare,1185,426.6
+11,Rangeland,1,Water,989,356.04
+7,Built,5,Crops,949,341.64
+8,Bare,11,Rangeland,596,214.56
+11,Rangeland,7,Built,577,207.72
+1,Water,11,Rangeland,495,178.2
+4,Flooded vegetation,4,Flooded vegetation,401,144.36
+7,Built,2,Trees,352,126.72
+2,Trees,1,Water,338,121.68
+1,Water,5,Crops,333,119.88
+1,Water,2,Trees,328,118.08
+4,Flooded vegetation,1,Water,328,118.08
+1,Water,8,Bare,277,99.72
+8,Bare,1,Water,222,79.92
+11,Rangeland,4,Flooded vegetation,125,45.0
+7,Built,11,Rangeland,109,39.24
+4,Flooded vegetation,11,Rangeland,93,33.48
+7,Built,1,Water,88,31.68
+1,Water,7,Built,72,25.92
+4,Flooded vegetation,2,Trees,41,14.76
+1,Water,4,Flooded vegetation,40,14.4
+4,Flooded vegetation,5,Crops,38,13.68
+11,Rangeland,8,Bare,31,11.16
+8,Bare,2,Trees,25,9.0
+5,Crops,4,Flooded vegetation,23,8.28
+2,Trees,4,Flooded vegetation,7,2.52
+8,Bare,5,Crops,7,2.52
+4,Flooded vegetation,7,Built,2,0.72

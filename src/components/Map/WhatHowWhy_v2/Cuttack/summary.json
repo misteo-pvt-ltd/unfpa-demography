@@ -1,0 +1,264 @@
+{
+  "district": "Cuttack",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 86.04849649846896,
+      "centroid_lat": 20.496373081083117,
+      "centroid_x": 400780.0,
+      "centroid_y": 2266700.0,
+      "score": 780.8959563262761,
+      "area_km2": 1.0,
+      "bounds": [
+        400280.0,
+        2266200.0,
+        401280.0,
+        2267200.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 85.78045006549779,
+      "centroid_lat": 20.44048955193441,
+      "centroid_x": 372780.0,
+      "centroid_y": 2260700.0,
+      "score": 768.2240563444793,
+      "area_km2": 1.0,
+      "bounds": [
+        372280.0,
+        2260200.0,
+        373280.0,
+        2261200.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 86.14428602141477,
+      "centroid_lat": 20.51494234118641,
+      "centroid_x": 410780.0,
+      "centroid_y": 2268700.0,
+      "score": 677.3582352260128,
+      "area_km2": 1.0,
+      "bounds": [
+        410280.0,
+        2268200.0,
+        411280.0,
+        2269200.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 85.0981692338224,
+      "centroid_lat": 20.587921415623743,
+      "centroid_x": 301780.0,
+      "centroid_y": 2277700.0,
+      "score": 648.1876850128174,
+      "area_km2": 1.0,
+      "bounds": [
+        301280.0,
+        2277200.0,
+        302280.0,
+        2278200.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 85.97178675431526,
+      "centroid_lat": 20.495935809473213,
+      "centroid_x": 392780.0,
+      "centroid_y": 2266700.0,
+      "score": 631.6160117250402,
+      "area_km2": 1.0,
+      "bounds": [
+        392280.0,
+        2266200.0,
+        393280.0,
+        2267200.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 38.52,
+      "nearby_features": [
+        {
+          "name": "Salipur",
+          "type": "urban_center",
+          "distance_km": 9.06,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Salipur, ~9.06 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 1 (20.4964\u00b0N, 86.0485\u00b0E), 2016\u21922024. New built-up area: 46.44 ha (38.52 ha from Trees, 7.92 ha from Crops). Why: nearest known feature is Salipur (urban center), ~9.06 km away. District drivers: urban expansion, industrial, port logistics. Likely cause: Forest cleared for urban or industrial development (likely driven by Salipur, ~9.06 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Salipur (9.06 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 46.44,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 107,
+          "area_ha": 38.52
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 22,
+          "area_ha": 7.92
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Salipur (9.06 km)"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 31.32,
+      "nearby_features": [
+        {
+          "name": "Cuttack railway station",
+          "type": "railway_station",
+          "distance_km": 9.77,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (nearest known feature: Cuttack railway station, ~9.77 km)",
+      "confidence": 0.8,
+      "narrative": "Hotspot 2 (20.4405\u00b0N, 85.7805\u00b0E), 2016\u21922024. New built-up area: 62.64 ha (31.32 ha from Crops, 26.64 ha from Rangeland, 4.68 ha from Trees). Why: nearest known feature is Cuttack railway station (railway station), ~9.77 km away. District drivers: urban expansion, industrial, port logistics. Likely cause: Urban or industrial expansion onto farmland (nearest known feature: Cuttack railway station, ~9.77 km). Demographic signal: transport-corridor development (station/road-led commercial growth) [dominated by transport driver(s): Cuttack railway station (9.77 km)]. Confidence: 0.80.",
+      "new_built_area_ha": 62.64,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 87,
+          "area_ha": 31.32
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 74,
+          "area_ha": 26.64
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 13,
+          "area_ha": 4.68
+        }
+      ],
+      "settlement_type": "transport",
+      "settlement_rationale": "dominated by transport driver(s): Cuttack railway station (9.77 km)"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 46.8,
+      "nearby_features": [
+        {
+          "name": "Salipur",
+          "type": "urban_center",
+          "distance_km": 6.32,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Salipur, ~6.32 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 3 (20.5149\u00b0N, 86.1443\u00b0E), 2016\u21922024. New built-up area: 53.28 ha (46.8 ha from Trees, 6.48 ha from Crops). Why: nearest known feature is Salipur (urban center), ~6.32 km away. District drivers: urban expansion, industrial, port logistics. Likely cause: Forest cleared for urban or industrial development (likely driven by Salipur, ~6.32 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Salipur (6.32 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 53.28,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 130,
+          "area_ha": 46.8
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 18,
+          "area_ha": 6.48
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Salipur (6.32 km)"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "unchanged",
+      "dominant_to": "unchanged",
+      "transition_area_ha": 0.0,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged",
+      "confidence": 0.3,
+      "narrative": "Hotspot 4 (20.5879\u00b0N, 85.0982\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: unchanged \u2192 unchanged (0.0 ha). Why: no specific nearby feature registered; district drivers are urban expansion, industrial, port logistics. Likely cause: Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged. Demographic signal: unclassified \u2014 needs ground-truth [no Built-class conversion inside hotspot; spectral change without a clear land-cover flip]. Confidence: 0.30.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "unclassified",
+      "settlement_rationale": "no Built-class conversion inside hotspot; spectral change without a clear land-cover flip"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 25.56,
+      "nearby_features": [
+        {
+          "name": "Choudwar Industrial Area",
+          "type": "industrial",
+          "distance_km": 8.54,
+          "source": "district_context"
+        },
+        {
+          "name": "Choudwar",
+          "type": "urban_center",
+          "distance_km": 9.38,
+          "source": "district_context"
+        },
+        {
+          "name": "SAIL Kalinga Nagar (approach)",
+          "type": "steel_plant",
+          "distance_km": 9.59,
+          "source": "district_context"
+        },
+        {
+          "name": "Cuttack city",
+          "type": "urban_center",
+          "distance_km": 9.99,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Choudwar Industrial Area, ~8.54 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 5 (20.4959\u00b0N, 85.9718\u00b0E), 2016\u21922024. New built-up area: 49.68 ha (25.56 ha from Trees, 23.76 ha from Crops, 0.36 ha from Water). Why: nearest known feature is Choudwar Industrial Area (industrial), ~8.54 km away. District drivers: urban expansion, industrial, port logistics. Likely cause: Forest cleared for urban or industrial development (likely driven by Choudwar Industrial Area, ~8.54 km away). Demographic signal: mixed industrial + residential footprint [industrial/residential drivers overlap (Choudwar Industrial Area (8.54 km); Choudwar (9.38 km))]. Confidence: 0.95.",
+      "new_built_area_ha": 49.68,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 71,
+          "area_ha": 25.56
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 66,
+          "area_ha": 23.76
+        },
+        {
+          "from_label": "Water",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "industrial/residential drivers overlap (Choudwar Industrial Area (8.54 km); Choudwar (9.38 km))"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 54784.08
+}

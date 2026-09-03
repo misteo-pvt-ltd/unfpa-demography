@@ -1,0 +1,299 @@
+{
+  "district": "Sundargarh",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 85.25284312447012,
+      "centroid_lat": 21.90754076607021,
+      "centroid_x": 319520.0,
+      "centroid_y": 2423620.0,
+      "score": 1281.34467448527,
+      "area_km2": 1.0,
+      "bounds": [
+        319020.0,
+        2423120.0,
+        320020.0,
+        2424120.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 83.8002693518788,
+      "centroid_lat": 21.966921209795466,
+      "centroid_x": 169520.0,
+      "centroid_y": 2432620.0,
+      "score": 763.2382434280589,
+      "area_km2": 1.0,
+      "bounds": [
+        169020.0,
+        2432120.0,
+        170020.0,
+        2433120.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 83.74430151252197,
+      "centroid_lat": 21.875579239131515,
+      "centroid_x": 163520.0,
+      "centroid_y": 2422620.0,
+      "score": 760.2803656551987,
+      "area_km2": 1.0,
+      "bounds": [
+        163020.0,
+        2422120.0,
+        164020.0,
+        2423120.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 83.8393517603478,
+      "centroid_lat": 21.94962962186484,
+      "centroid_x": 173520.0,
+      "centroid_y": 2430620.0,
+      "score": 672.5174342092068,
+      "area_km2": 1.0,
+      "bounds": [
+        173020.0,
+        2430120.0,
+        174020.0,
+        2431120.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 85.2235878015198,
+      "centroid_lat": 21.925290472555446,
+      "centroid_x": 316520.0,
+      "centroid_y": 2425620.0,
+      "score": 656.2312318179756,
+      "area_km2": 1.0,
+      "bounds": [
+        316020.0,
+        2425120.0,
+        317020.0,
+        2426120.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 77.04,
+      "nearby_features": [
+        {
+          "name": "Koira mining range (north)",
+          "type": "iron_ore_mine",
+          "distance_km": 7.21,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (nearest known feature: Koira mining range (north), ~7.21 km)",
+      "confidence": 0.75,
+      "narrative": "Hotspot 1 (21.9075\u00b0N, 85.2528\u00b0E), 2016\u21922024. New built-up area: 77.4 ha (77.04 ha from Rangeland, 0.36 ha from Crops). Why: nearest known feature is Koira mining range (north) (iron ore mine), ~7.21 km away. District drivers: iron-ore mining, steel production, cement manufacturing. Likely cause: Urban/industrial expansion onto rangeland (nearest known feature: Koira mining range (north), ~7.21 km). Demographic signal: mining-adjacent footprint (pit + haul roads + workforce colonies) [dominated by mining_adjacent driver(s): Koira mining range (north) (7.21 km)]. Confidence: 0.75.",
+      "new_built_area_ha": 77.4,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 214,
+          "area_ha": 77.04
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "mining_adjacent",
+      "settlement_rationale": "dominated by mining_adjacent driver(s): Koira mining range (north) (7.21 km)"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 19.8,
+      "nearby_features": [
+        {
+          "name": "MCL Basundhara coal mine",
+          "type": "coal_mine",
+          "distance_km": 5.2,
+          "source": "district_context"
+        },
+        {
+          "name": "Hemgir",
+          "type": "urban_center",
+          "distance_km": 6.39,
+          "source": "district_context"
+        },
+        {
+          "name": "Lephripara",
+          "type": "urban_center",
+          "distance_km": 9.04,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (nearest known feature: MCL Basundhara coal mine, ~5.2 km)",
+      "confidence": 0.8,
+      "narrative": "Hotspot 2 (21.9669\u00b0N, 83.8003\u00b0E), 2016\u21922024. New built-up area: 25.56 ha (19.8 ha from Trees, 5.04 ha from Rangeland, 0.72 ha from Water). Why: nearest known feature is MCL Basundhara coal mine (coal mine), ~5.2 km away. District drivers: iron-ore mining, steel production, cement manufacturing. Likely cause: Forest cleared for urban or industrial development (nearest known feature: MCL Basundhara coal mine, ~5.2 km). Demographic signal: mixed industrial + residential footprint [mining_adjacent/residential drivers overlap (MCL Basundhara coal mine (5.2 km); Hemgir (6.39 km))]. Confidence: 0.80.",
+      "new_built_area_ha": 25.56,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 55,
+          "area_ha": 19.8
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 14,
+          "area_ha": 5.04
+        },
+        {
+          "from_label": "Water",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "mining_adjacent/residential drivers overlap (MCL Basundhara coal mine (5.2 km); Hemgir (6.39 km))"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 23.76,
+      "nearby_features": [
+        {
+          "name": "MCL Garjanbahal coal mine",
+          "type": "coal_mine",
+          "distance_km": 5.32,
+          "source": "district_context"
+        },
+        {
+          "name": "Hemgir",
+          "type": "urban_center",
+          "distance_km": 6.45,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (nearest known feature: MCL Garjanbahal coal mine, ~5.32 km)",
+      "confidence": 0.75,
+      "narrative": "Hotspot 3 (21.8756\u00b0N, 83.7443\u00b0E), 2016\u21922024. New built-up area: 39.24 ha (23.76 ha from Rangeland, 15.12 ha from Trees, 0.36 ha from Crops). Why: nearest known feature is MCL Garjanbahal coal mine (coal mine), ~5.32 km away. District drivers: iron-ore mining, steel production, cement manufacturing. Likely cause: Urban/industrial expansion onto rangeland (nearest known feature: MCL Garjanbahal coal mine, ~5.32 km). Demographic signal: mixed industrial + residential footprint [mining_adjacent/residential drivers overlap (MCL Garjanbahal coal mine (5.32 km); Hemgir (6.45 km))]. Confidence: 0.75.",
+      "new_built_area_ha": 39.24,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 66,
+          "area_ha": 23.76
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 42,
+          "area_ha": 15.12
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "mining_adjacent/residential drivers overlap (MCL Garjanbahal coal mine (5.32 km); Hemgir (6.45 km))"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 27.0,
+      "nearby_features": [
+        {
+          "name": "Lephripara",
+          "type": "urban_center",
+          "distance_km": 5.63,
+          "source": "district_context"
+        },
+        {
+          "name": "Hemgir",
+          "type": "urban_center",
+          "distance_km": 9.39,
+          "source": "district_context"
+        },
+        {
+          "name": "MCL Basundhara coal mine",
+          "type": "coal_mine",
+          "distance_km": 9.49,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (likely driven by Lephripara, ~5.63 km away)",
+      "confidence": 0.8999999999999999,
+      "narrative": "Hotspot 4 (21.9496\u00b0N, 83.8394\u00b0E), 2016\u21922024. New built-up area: 33.48 ha (27.0 ha from Rangeland, 5.4 ha from Trees, 1.08 ha from Crops). Why: nearest known feature is Lephripara (urban center), ~5.63 km away. District drivers: iron-ore mining, steel production, cement manufacturing. Likely cause: Urban/industrial expansion onto rangeland (likely driven by Lephripara, ~5.63 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Lephripara (5.63 km)]. Confidence: 0.90.",
+      "new_built_area_ha": 33.48,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 75,
+          "area_ha": 27.0
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 15,
+          "area_ha": 5.4
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 3,
+          "area_ha": 1.08
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Lephripara (5.63 km)"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 30.96,
+      "nearby_features": [
+        {
+          "name": "Koira mining range (north)",
+          "type": "iron_ore_mine",
+          "distance_km": 3.67,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (nearest known feature: Koira mining range (north), ~3.67 km)",
+      "confidence": 0.75,
+      "narrative": "Hotspot 5 (21.9253\u00b0N, 85.2236\u00b0E), 2016\u21922024. New built-up area: 35.28 ha (30.96 ha from Rangeland, 4.32 ha from Crops). Why: nearest known feature is Koira mining range (north) (iron ore mine), ~3.67 km away. District drivers: iron-ore mining, steel production, cement manufacturing. Likely cause: Urban/industrial expansion onto rangeland (nearest known feature: Koira mining range (north), ~3.67 km). Demographic signal: mining-adjacent footprint (pit + haul roads + workforce colonies) [dominated by mining_adjacent driver(s): Koira mining range (north) (3.67 km)]. Confidence: 0.75.",
+      "new_built_area_ha": 35.28,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 86,
+          "area_ha": 30.96
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 12,
+          "area_ha": 4.32
+        }
+      ],
+      "settlement_type": "mining_adjacent",
+      "settlement_rationale": "dominated by mining_adjacent driver(s): Koira mining range (north) (3.67 km)"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 130874.76000000001
+}

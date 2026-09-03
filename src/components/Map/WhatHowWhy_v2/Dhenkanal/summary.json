@@ -1,0 +1,237 @@
+{
+  "district": "Dhenkanal",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 85.29497880622797,
+      "centroid_lat": 20.761961132781604,
+      "centroid_x": 322500.0,
+      "centroid_y": 2296740.0,
+      "score": 992.0929487645626,
+      "area_km2": 1.0,
+      "bounds": [
+        322000.0,
+        2296240.0,
+        323000.0,
+        2297240.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 85.28476392636794,
+      "centroid_lat": 20.81605638084203,
+      "centroid_x": 321500.0,
+      "centroid_y": 2302740.0,
+      "score": 659.3256349049043,
+      "area_km2": 1.0,
+      "bounds": [
+        321000.0,
+        2302240.0,
+        322000.0,
+        2303240.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 85.39224575381765,
+      "centroid_lat": 20.645466401132747,
+      "centroid_x": 332500.0,
+      "centroid_y": 2283740.0,
+      "score": 605.5529013499618,
+      "area_km2": 1.0,
+      "bounds": [
+        332000.0,
+        2283240.0,
+        333000.0,
+        2284240.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 85.48450340544845,
+      "centroid_lat": 21.01667258642846,
+      "centroid_x": 342500.0,
+      "centroid_y": 2324740.0,
+      "score": 537.0706324875355,
+      "area_km2": 1.0,
+      "bounds": [
+        342000.0,
+        2324240.0,
+        343000.0,
+        2325240.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 85.63239528299171,
+      "centroid_lat": 20.620434181099018,
+      "centroid_x": 357500.0,
+      "centroid_y": 2280740.0,
+      "score": 516.5471065156889,
+      "area_km2": 1.0,
+      "bounds": [
+        357000.0,
+        2280240.0,
+        358000.0,
+        2281240.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 42.84,
+      "nearby_features": [],
+      "likely_cause": "Urban/industrial expansion onto rangeland",
+      "confidence": 0.7,
+      "narrative": "Hotspot 1 (20.7620\u00b0N, 85.2950\u00b0E), 2016\u21922024. New built-up area: 83.52 ha (42.84 ha from Rangeland, 21.96 ha from Trees, 18.72 ha from Crops). Why: no specific nearby feature registered; district drivers are coal mining, cement manufacturing, urban expansion. Likely cause: Urban/industrial expansion onto rangeland. Demographic signal: mixed industrial + residential footprint [no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion]. Confidence: 0.70.",
+      "new_built_area_ha": 83.52,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 119,
+          "area_ha": 42.84
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 61,
+          "area_ha": 21.96
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 52,
+          "area_ha": 18.72
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 28.44,
+      "nearby_features": [],
+      "likely_cause": "Urban/industrial expansion onto rangeland",
+      "confidence": 0.7,
+      "narrative": "Hotspot 2 (20.8161\u00b0N, 85.2848\u00b0E), 2016\u21922024. New built-up area: 52.2 ha (28.44 ha from Rangeland, 22.32 ha from Trees, 1.08 ha from Water). Why: no specific nearby feature registered; district drivers are coal mining, cement manufacturing, urban expansion. Likely cause: Urban/industrial expansion onto rangeland. Demographic signal: mixed industrial + residential footprint [no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion]. Confidence: 0.70.",
+      "new_built_area_ha": 52.2,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 79,
+          "area_ha": 28.44
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 62,
+          "area_ha": 22.32
+        },
+        {
+          "from_label": "Water",
+          "pixel_count": 3,
+          "area_ha": 1.08
+        },
+        {
+          "from_label": "Bare",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "unchanged",
+      "dominant_to": "unchanged",
+      "transition_area_ha": 0.0,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged",
+      "confidence": 0.3,
+      "narrative": "Hotspot 3 (20.6455\u00b0N, 85.3922\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: unchanged \u2192 unchanged (0.0 ha). Why: no specific nearby feature registered; district drivers are coal mining, cement manufacturing, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged. Demographic signal: unclassified \u2014 needs ground-truth [no Built-class conversion inside hotspot; spectral change without a clear land-cover flip]. Confidence: 0.30.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "unclassified",
+      "settlement_rationale": "no Built-class conversion inside hotspot; spectral change without a clear land-cover flip"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "unchanged",
+      "dominant_to": "unchanged",
+      "transition_area_ha": 0.0,
+      "nearby_features": [
+        {
+          "name": "Kamakhyanagar",
+          "type": "urban_center",
+          "distance_km": 5.23,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged",
+      "confidence": 0.35,
+      "narrative": "Hotspot 4 (21.0167\u00b0N, 85.4845\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: unchanged \u2192 unchanged (0.0 ha). Why: nearest known feature is Kamakhyanagar (urban center), ~5.23 km away. District drivers: coal mining, cement manufacturing, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged. Demographic signal: unclassified \u2014 needs ground-truth [no Built-class conversion inside hotspot; spectral change without a clear land-cover flip]. Confidence: 0.35.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "unclassified",
+      "settlement_rationale": "no Built-class conversion inside hotspot; spectral change without a clear land-cover flip"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 21.96,
+      "nearby_features": [
+        {
+          "name": "Dhenkanal town",
+          "type": "urban_center",
+          "distance_km": 5.3,
+          "source": "district_context"
+        },
+        {
+          "name": "Dhenkanal railway station",
+          "type": "railway_station",
+          "distance_km": 5.76,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Dhenkanal town, ~5.3 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 5 (20.6204\u00b0N, 85.6324\u00b0E), 2016\u21922024. New built-up area: 37.08 ha (21.96 ha from Crops, 14.4 ha from Trees, 0.72 ha from Rangeland). Why: nearest known feature is Dhenkanal town (urban center), ~5.3 km away. District drivers: coal mining, cement manufacturing, urban expansion. Likely cause: Urban or industrial expansion onto farmland (likely driven by Dhenkanal town, ~5.3 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Dhenkanal town (5.3 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 37.08,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 61,
+          "area_ha": 21.96
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 40,
+          "area_ha": 14.4
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Dhenkanal town (5.3 km)"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 66975.84
+}

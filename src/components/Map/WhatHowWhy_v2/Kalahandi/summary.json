@@ -1,0 +1,244 @@
+{
+  "district": "Kalahandi",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 83.43084704406814,
+      "centroid_lat": 20.38488595850024,
+      "centroid_x": 127380.0,
+      "centroid_y": 2258120.0,
+      "score": 736.836911894381,
+      "area_km2": 1.0,
+      "bounds": [
+        126880.0,
+        2257620.0,
+        127880.0,
+        2258620.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 83.39850129643902,
+      "centroid_lat": 19.707502882873264,
+      "centroid_x": 122380.0,
+      "centroid_y": 2183120.0,
+      "score": 722.5944817122072,
+      "area_km2": 1.0,
+      "bounds": [
+        121880.0,
+        2182620.0,
+        122880.0,
+        2183620.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 83.06406544413862,
+      "centroid_lat": 20.13344262242084,
+      "centroid_x": 88380.0,
+      "centroid_y": 2231120.0,
+      "score": 652.9087889324874,
+      "area_km2": 1.0,
+      "bounds": [
+        87880.0,
+        2230620.0,
+        88880.0,
+        2231620.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 83.19338392068735,
+      "centroid_lat": 19.91977651846379,
+      "centroid_x": 101380.0,
+      "centroid_y": 2207120.0,
+      "score": 630.2621172387153,
+      "area_km2": 1.0,
+      "bounds": [
+        100880.0,
+        2206620.0,
+        101880.0,
+        2207620.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 82.56389109236522,
+      "centroid_lat": 19.580591485170032,
+      "centroid_x": 34380.0,
+      "centroid_y": 2171120.0,
+      "score": 587.5160096287727,
+      "area_km2": 1.0,
+      "bounds": [
+        33880.0,
+        2170620.0,
+        34880.0,
+        2171620.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 29.88,
+      "nearby_features": [],
+      "likely_cause": "Urban or industrial expansion onto farmland",
+      "confidence": 0.75,
+      "narrative": "Hotspot 1 (20.3849\u00b0N, 83.4308\u00b0E), 2016\u21922024. New built-up area: 31.68 ha (29.88 ha from Crops, 1.44 ha from Trees, 0.36 ha from Rangeland). Why: no specific nearby feature registered; district drivers are bauxite mining, aluminium refining, agricultural activity. Likely cause: Urban or industrial expansion onto farmland. Demographic signal: settlement / peri-urban growth (housing, population inflow) [no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland]. Confidence: 0.75.",
+      "new_built_area_ha": 31.68,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 83,
+          "area_ha": 29.88
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 4,
+          "area_ha": 1.44
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 21.96,
+      "nearby_features": [
+        {
+          "name": "Lanjigarh",
+          "type": "urban_center",
+          "distance_km": 1.89,
+          "source": "district_context"
+        },
+        {
+          "name": "Vedanta Lanjigarh Alumina Refinery",
+          "type": "aluminium_refinery",
+          "distance_km": 2.11,
+          "source": "district_context"
+        },
+        {
+          "name": "Niyamgiri bauxite reserve",
+          "type": "bauxite_mine",
+          "distance_km": 4.5,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (likely driven by Lanjigarh, ~1.89 km away)",
+      "confidence": 0.8999999999999999,
+      "narrative": "Hotspot 2 (19.7075\u00b0N, 83.3985\u00b0E), 2016\u21922024. New built-up area: 31.32 ha (21.96 ha from Rangeland, 5.4 ha from Crops, 3.96 ha from Trees). Why: nearest known feature is Lanjigarh (urban center), ~1.89 km away. District drivers: bauxite mining, aluminium refining, agricultural activity. Likely cause: Urban/industrial expansion onto rangeland (likely driven by Lanjigarh, ~1.89 km away). Demographic signal: mixed industrial + residential footprint [residential/industrial/mining_adjacent drivers overlap (Lanjigarh (1.89 km); Vedanta Lanjigarh Alumina Refinery (2.11 km))]. Confidence: 0.90.",
+      "new_built_area_ha": 31.32,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 61,
+          "area_ha": 21.96
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 15,
+          "area_ha": 5.4
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 11,
+          "area_ha": 3.96
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "residential/industrial/mining_adjacent drivers overlap (Lanjigarh (1.89 km); Vedanta Lanjigarh Alumina Refinery (2.11 km))"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 14.4,
+      "nearby_features": [],
+      "likely_cause": "Forest cleared for urban or industrial development",
+      "confidence": 0.75,
+      "narrative": "Hotspot 3 (20.1334\u00b0N, 83.0641\u00b0E), 2016\u21922024. New built-up area: 19.8 ha (14.4 ha from Trees, 5.4 ha from Crops). Why: no specific nearby feature registered; district drivers are bauxite mining, aluminium refining, agricultural activity. Likely cause: Forest cleared for urban or industrial development. Demographic signal: industrial build-out (plant expansion, workforce housing likely) [no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance]. Confidence: 0.75.",
+      "new_built_area_ha": 19.8,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 40,
+          "area_ha": 14.4
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 15,
+          "area_ha": 5.4
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 24.12,
+      "nearby_features": [
+        {
+          "name": "Bhawanipatna",
+          "type": "urban_center",
+          "distance_km": 3.66,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Bhawanipatna, ~3.66 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 4 (19.9198\u00b0N, 83.1934\u00b0E), 2016\u21922024. New built-up area: 25.2 ha (24.12 ha from Crops, 1.08 ha from Trees). Why: nearest known feature is Bhawanipatna (urban center), ~3.66 km away. District drivers: bauxite mining, aluminium refining, agricultural activity. Likely cause: Urban or industrial expansion onto farmland (likely driven by Bhawanipatna, ~3.66 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Bhawanipatna (3.66 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 25.2,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 67,
+          "area_ha": 24.12
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 3,
+          "area_ha": 1.08
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Bhawanipatna (3.66 km)"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Trees",
+      "dominant_to": "Rangeland",
+      "transition_area_ha": 54.0,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland",
+      "confidence": 0.6,
+      "narrative": "Hotspot 5 (19.5806\u00b0N, 82.5639\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Rangeland (54.0 ha). Why: no specific nearby feature registered; district drivers are bauxite mining, aluminium refining, agricultural activity. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.60.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 150538.67999999996
+}

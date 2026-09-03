@@ -1,0 +1,247 @@
+{
+  "district": "Malkangiri",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 81.89851549736774,
+      "centroid_lat": 18.368151747481374,
+      "centroid_x": -39500.0,
+      "centroid_y": 2038500.0,
+      "score": 894.8829924426973,
+      "area_km2": 1.0,
+      "bounds": [
+        -40000.0,
+        2038000.0,
+        -39000.0,
+        2039000.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 81.59137828567466,
+      "centroid_lat": 17.927371801922053,
+      "centroid_x": -73500.0,
+      "centroid_y": 1990500.0,
+      "score": 846.3542759027332,
+      "area_km2": 1.0,
+      "bounds": [
+        -74000.0,
+        1990000.0,
+        -73000.0,
+        1991000.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 81.59968318238022,
+      "centroid_lat": 17.96362726140878,
+      "centroid_x": -72500.0,
+      "centroid_y": 1994500.0,
+      "score": 700.9143982264213,
+      "area_km2": 1.0,
+      "bounds": [
+        -73000.0,
+        1994000.0,
+        -72000.0,
+        1995000.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 81.55184438677067,
+      "centroid_lat": 17.989302635380515,
+      "centroid_x": -77500.0,
+      "centroid_y": 1997500.0,
+      "score": 670.55985372141,
+      "area_km2": 1.0,
+      "bounds": [
+        -78000.0,
+        1997000.0,
+        -77000.0,
+        1998000.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 81.52696596357303,
+      "centroid_lat": 17.88053856196283,
+      "centroid_x": -80500.0,
+      "centroid_y": 1985500.0,
+      "score": 600.9204752072692,
+      "area_km2": 1.0,
+      "bounds": [
+        -81000.0,
+        1985000.0,
+        -80000.0,
+        1986000.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 26.28,
+      "nearby_features": [
+        {
+          "name": "Malkangiri town",
+          "type": "urban_center",
+          "distance_km": 2.81,
+          "source": "district_context"
+        },
+        {
+          "name": "Kalimela",
+          "type": "urban_center",
+          "distance_km": 7.41,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Malkangiri town, ~2.81 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 1 (18.3682\u00b0N, 81.8985\u00b0E), 2016\u21922024. New built-up area: 32.4 ha (26.28 ha from Crops, 5.4 ha from Rangeland, 0.72 ha from Water). Why: nearest known feature is Malkangiri town (urban center), ~2.81 km away. District drivers: forest, shifting / tribal agriculture, hydroelectric reservoir operations. Likely cause: Urban or industrial expansion onto farmland (likely driven by Malkangiri town, ~2.81 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Malkangiri town (2.81 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 32.4,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 73,
+          "area_ha": 26.28
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 15,
+          "area_ha": 5.4
+        },
+        {
+          "from_label": "Water",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Malkangiri town (2.81 km)"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 35.28,
+      "nearby_features": [],
+      "likely_cause": "Forest cleared for urban or industrial development",
+      "confidence": 0.75,
+      "narrative": "Hotspot 2 (17.9274\u00b0N, 81.5914\u00b0E), 2016\u21922024. New built-up area: 39.96 ha (35.28 ha from Trees, 3.96 ha from Rangeland, 0.72 ha from Crops). Why: no specific nearby feature registered; district drivers are forest, shifting / tribal agriculture, hydroelectric reservoir operations. Likely cause: Forest cleared for urban or industrial development. Demographic signal: industrial build-out (plant expansion, workforce housing likely) [no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance]. Confidence: 0.75.",
+      "new_built_area_ha": 39.96,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 98,
+          "area_ha": 35.28
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 11,
+          "area_ha": 3.96
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 16.92,
+      "nearby_features": [],
+      "likely_cause": "Urban/industrial expansion onto rangeland",
+      "confidence": 0.7,
+      "narrative": "Hotspot 3 (17.9636\u00b0N, 81.5997\u00b0E), 2016\u21922024. New built-up area: 24.84 ha (16.92 ha from Rangeland, 6.12 ha from Crops, 1.8 ha from Trees). Why: no specific nearby feature registered; district drivers are forest, shifting / tribal agriculture, hydroelectric reservoir operations. Likely cause: Urban/industrial expansion onto rangeland. Demographic signal: mixed industrial + residential footprint [no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion]. Confidence: 0.70.",
+      "new_built_area_ha": 24.84,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 47,
+          "area_ha": 16.92
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 17,
+          "area_ha": 6.12
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 5,
+          "area_ha": 1.8
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 21.6,
+      "nearby_features": [],
+      "likely_cause": "Urban/industrial expansion onto rangeland",
+      "confidence": 0.7,
+      "narrative": "Hotspot 4 (17.9893\u00b0N, 81.5518\u00b0E), 2016\u21922024. New built-up area: 21.6 ha (21.6 ha from Rangeland). Why: no specific nearby feature registered; district drivers are forest, shifting / tribal agriculture, hydroelectric reservoir operations. Likely cause: Urban/industrial expansion onto rangeland. Demographic signal: mixed industrial + residential footprint [no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion]. Confidence: 0.70.",
+      "new_built_area_ha": 21.6,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 60,
+          "area_ha": 21.6
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 7.92,
+      "nearby_features": [],
+      "likely_cause": "Forest cleared for urban or industrial development",
+      "confidence": 0.75,
+      "narrative": "Hotspot 5 (17.8805\u00b0N, 81.5270\u00b0E), 2016\u21922024. New built-up area: 15.48 ha (7.92 ha from Trees, 5.76 ha from Crops, 1.8 ha from Rangeland). Why: no specific nearby feature registered; district drivers are forest, shifting / tribal agriculture, hydroelectric reservoir operations. Likely cause: Forest cleared for urban or industrial development. Demographic signal: industrial build-out (plant expansion, workforce housing likely) [no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance]. Confidence: 0.75.",
+      "new_built_area_ha": 15.48,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 22,
+          "area_ha": 7.92
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 16,
+          "area_ha": 5.76
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 5,
+          "area_ha": 1.8
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 97572.96
+}

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "hotspots",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "rank": 1, "lon": 85.013328393826185, "lat": 20.944265859050187, "score": 713.41472577303648, "area_km2": 1.0, "bounds_minx": 292920.0, "bounds_miny": 2316760.0, "bounds_maxx": 293920.0, "bounds_maxy": 2317760.0 }, "geometry": { "type": "Point", "coordinates": [ 85.013328393826185, 20.944265859050187 ] } },
+{ "type": "Feature", "properties": { "rank": 2, "lon": 85.157855651908463, "lat": 20.918791482253216, "score": 626.11657338344958, "area_km2": 1.0, "bounds_minx": 307920.0, "bounds_miny": 2313760.0, "bounds_maxx": 308920.0, "bounds_maxy": 2314760.0 }, "geometry": { "type": "Point", "coordinates": [ 85.157855651908463, 20.918791482253216 ] } },
+{ "type": "Feature", "properties": { "rank": 3, "lon": 85.111714075223787, "lat": 20.764741238610785, "score": 593.94163922220469, "area_km2": 1.0, "bounds_minx": 302920.0, "bounds_miny": 2296760.0, "bounds_maxx": 303920.0, "bounds_maxy": 2297760.0 }, "geometry": { "type": "Point", "coordinates": [ 85.111714075223787, 20.764741238610785 ] } },
+{ "type": "Feature", "properties": { "rank": 4, "lon": 85.159723588853851, "lat": 20.765262331087204, "score": 579.38643219321966, "area_km2": 1.0, "bounds_minx": 307920.0, "bounds_miny": 2296760.0, "bounds_maxx": 308920.0, "bounds_maxy": 2297760.0 }, "geometry": { "type": "Point", "coordinates": [ 85.159723588853851, 20.765262331087204 ] } },
+{ "type": "Feature", "properties": { "rank": 5, "lon": 84.83888301193268, "lat": 21.04148396959506, "score": 510.34627094771713, "area_km2": 1.0, "bounds_minx": 274920.0, "bounds_miny": 2327760.0, "bounds_maxx": 275920.0, "bounds_maxy": 2328760.0 }, "geometry": { "type": "Point", "coordinates": [ 84.83888301193268, 21.04148396959506 ] } }
+]
+}

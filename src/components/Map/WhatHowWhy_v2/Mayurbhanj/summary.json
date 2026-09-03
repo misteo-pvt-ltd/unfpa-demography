@@ -1,0 +1,182 @@
+{
+  "district": "Mayurbhanj",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 86.11972065745893,
+      "centroid_lat": 21.788349446933413,
+      "centroid_x": 409000.0,
+      "centroid_y": 2409660.0,
+      "score": 699.1523829735816,
+      "area_km2": 1.0,
+      "bounds": [
+        408500.0,
+        2409160.0,
+        409500.0,
+        2410160.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 86.8260126880922,
+      "centroid_lat": 21.673149473020622,
+      "centroid_x": 482000.0,
+      "centroid_y": 2396660.0,
+      "score": 649.581089053303,
+      "area_km2": 1.0,
+      "bounds": [
+        481500.0,
+        2396160.0,
+        482500.0,
+        2397160.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 86.33298151759162,
+      "centroid_lat": 21.689969322915676,
+      "centroid_x": 431000.0,
+      "centroid_y": 2398660.0,
+      "score": 577.9015068113804,
+      "area_km2": 1.0,
+      "bounds": [
+        430500.0,
+        2398160.0,
+        431500.0,
+        2399160.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 86.11949977183721,
+      "centroid_lat": 21.824484280036376,
+      "centroid_x": 409000.0,
+      "centroid_y": 2413660.0,
+      "score": 577.1382319629192,
+      "area_km2": 1.0,
+      "bounds": [
+        408500.0,
+        2413160.0,
+        409500.0,
+        2414160.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 86.40931384996566,
+      "centroid_lat": 21.934188163009377,
+      "centroid_x": 439000.0,
+      "centroid_y": 2425660.0,
+      "score": 571.9581000208855,
+      "area_km2": 1.0,
+      "bounds": [
+        438500.0,
+        2425160.0,
+        439500.0,
+        2426160.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Trees",
+      "dominant_to": "Rangeland",
+      "transition_area_ha": 14.04,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland",
+      "confidence": 0.6,
+      "narrative": "Hotspot 1 (21.7883\u00b0N, 86.1197\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Rangeland (14.0 ha). Why: no specific nearby feature registered; district drivers are iron-ore mining, protected-forest dynamics, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.60.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 30.24,
+      "nearby_features": [
+        {
+          "name": "Baripada eastern fringe",
+          "type": "urban_center",
+          "distance_km": 0.71,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Baripada eastern fringe, ~0.71 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 2 (21.6731\u00b0N, 86.8260\u00b0E), 2016\u21922024. New built-up area: 33.48 ha (30.24 ha from Trees, 3.24 ha from Crops). Why: nearest known feature is Baripada eastern fringe (urban center), ~0.71 km away. District drivers: iron-ore mining, protected-forest dynamics, urban expansion. Likely cause: Forest cleared for urban or industrial development (likely driven by Baripada eastern fringe, ~0.71 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Baripada eastern fringe (0.71 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 33.48,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 84,
+          "area_ha": 30.24
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 9,
+          "area_ha": 3.24
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Baripada eastern fringe (0.71 km)"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "unchanged",
+      "dominant_to": "unchanged",
+      "transition_area_ha": 0.0,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged",
+      "confidence": 0.3,
+      "narrative": "Hotspot 3 (21.6900\u00b0N, 86.3330\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: unchanged \u2192 unchanged (0.0 ha). Why: no specific nearby feature registered; district drivers are iron-ore mining, protected-forest dynamics, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged. Demographic signal: unclassified \u2014 needs ground-truth [no Built-class conversion inside hotspot; spectral change without a clear land-cover flip]. Confidence: 0.30.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "unclassified",
+      "settlement_rationale": "no Built-class conversion inside hotspot; spectral change without a clear land-cover flip"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "unchanged",
+      "dominant_to": "unchanged",
+      "transition_area_ha": 0.0,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged",
+      "confidence": 0.3,
+      "narrative": "Hotspot 4 (21.8245\u00b0N, 86.1195\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: unchanged \u2192 unchanged (0.0 ha). Why: no specific nearby feature registered; district drivers are iron-ore mining, protected-forest dynamics, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged. Demographic signal: unclassified \u2014 needs ground-truth [no Built-class conversion inside hotspot; spectral change without a clear land-cover flip]. Confidence: 0.30.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "unclassified",
+      "settlement_rationale": "no Built-class conversion inside hotspot; spectral change without a clear land-cover flip"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "unchanged",
+      "dominant_to": "unchanged",
+      "transition_area_ha": 0.0,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged",
+      "confidence": 0.3,
+      "narrative": "Hotspot 5 (21.9342\u00b0N, 86.4093\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: unchanged \u2192 unchanged (0.0 ha). Why: no specific nearby feature registered; district drivers are iron-ore mining, protected-forest dynamics, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged. Demographic signal: unclassified \u2014 needs ground-truth [no Built-class conversion inside hotspot; spectral change without a clear land-cover flip]. Confidence: 0.30.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "unclassified",
+      "settlement_rationale": "no Built-class conversion inside hotspot; spectral change without a clear land-cover flip"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 119835.71999999999
+}

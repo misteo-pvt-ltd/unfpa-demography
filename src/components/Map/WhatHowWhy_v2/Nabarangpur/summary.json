@@ -1,0 +1,194 @@
+{
+  "district": "Nabarangpur",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 81.86869672714491,
+      "centroid_lat": 20.00445095170572,
+      "centroid_x": -37300.0,
+      "centroid_y": 2220220.0,
+      "score": 616.4814024474472,
+      "area_km2": 1.0,
+      "bounds": [
+        -37800.0,
+        2219720.0,
+        -36800.0,
+        2220720.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 82.14769329516406,
+      "centroid_lat": 19.606802711146756,
+      "centroid_x": -9300.0,
+      "centroid_y": 2175220.0,
+      "score": 509.8610675185919,
+      "area_km2": 1.0,
+      "bounds": [
+        -9800.0,
+        2174720.0,
+        -8800.0,
+        2175720.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 82.05047998651767,
+      "centroid_lat": 19.982604172729417,
+      "centroid_x": -18300.0,
+      "centroid_y": 2217220.0,
+      "score": 505.29603878222406,
+      "area_km2": 1.0,
+      "bounds": [
+        -18800.0,
+        2216720.0,
+        -17800.0,
+        2217720.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 82.27196546246732,
+      "centroid_lat": 19.907545666281496,
+      "centroid_x": 4700.0,
+      "centroid_y": 2208220.0,
+      "score": 501.95076036453247,
+      "area_km2": 1.0,
+      "bounds": [
+        4200.0,
+        2207720.0,
+        5200.0,
+        2208720.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 82.1835487855979,
+      "centroid_lat": 19.679864653929904,
+      "centroid_x": -5300.0,
+      "centroid_y": 2183220.0,
+      "score": 492.8097735112533,
+      "area_km2": 1.0,
+      "bounds": [
+        -5800.0,
+        2182720.0,
+        -4800.0,
+        2183720.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 16.92,
+      "nearby_features": [],
+      "likely_cause": "Urban/industrial expansion onto rangeland",
+      "confidence": 0.7,
+      "narrative": "Hotspot 1 (20.0045\u00b0N, 81.8687\u00b0E), 2016\u21922024. New built-up area: 32.4 ha (16.92 ha from Rangeland, 14.76 ha from Trees, 0.72 ha from Crops). Why: no specific nearby feature registered; district drivers are agricultural activity, shifting / tribal agriculture, urban expansion. Likely cause: Urban/industrial expansion onto rangeland. Demographic signal: mixed industrial + residential footprint [no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion]. Confidence: 0.70.",
+      "new_built_area_ha": 32.4,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 47,
+          "area_ha": 16.92
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 41,
+          "area_ha": 14.76
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Trees",
+      "dominant_to": "Rangeland",
+      "transition_area_ha": 8.28,
+      "nearby_features": [
+        {
+          "name": "Umerkote",
+          "type": "urban_center",
+          "distance_km": 8.91,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland",
+      "confidence": 0.65,
+      "narrative": "Hotspot 2 (19.6068\u00b0N, 82.1477\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Rangeland (8.3 ha). Why: nearest known feature is Umerkote (urban center), ~8.91 km away. District drivers: agricultural activity, shifting / tribal agriculture, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.65.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Trees",
+      "dominant_to": "Rangeland",
+      "transition_area_ha": 25.56,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland",
+      "confidence": 0.6,
+      "narrative": "Hotspot 3 (19.9826\u00b0N, 82.0505\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Rangeland (25.6 ha). Why: no specific nearby feature registered; district drivers are agricultural activity, shifting / tribal agriculture, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.60.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Trees",
+      "dominant_to": "Rangeland",
+      "transition_area_ha": 33.48,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland",
+      "confidence": 0.6,
+      "narrative": "Hotspot 4 (19.9075\u00b0N, 82.2720\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Rangeland (33.5 ha). Why: no specific nearby feature registered; district drivers are agricultural activity, shifting / tribal agriculture, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.60.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Crops",
+      "transition_area_ha": 2.16,
+      "nearby_features": [
+        {
+          "name": "Umerkote",
+          "type": "urban_center",
+          "distance_km": 2.04,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Rangeland \u2192 Crops",
+      "confidence": 0.55,
+      "narrative": "Hotspot 5 (19.6799\u00b0N, 82.1835\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Rangeland \u2192 Crops (2.2 ha). Why: nearest known feature is Umerkote (urban center), ~2.04 km away. District drivers: agricultural activity, shifting / tribal agriculture, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Rangeland \u2192 Crops. Demographic signal: unclassified \u2014 needs ground-truth [no Built-class conversion inside hotspot; spectral change without a clear land-cover flip]. Confidence: 0.55.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "unclassified",
+      "settlement_rationale": "no Built-class conversion inside hotspot; spectral change without a clear land-cover flip"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 78731.27999999998
+}

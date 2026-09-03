@@ -1,0 +1,216 @@
+{
+  "district": "Kandhamal",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 83.91813848848433,
+      "centroid_lat": 20.20427242405491,
+      "centroid_x": 177920.0,
+      "centroid_y": 2237080.0,
+      "score": 731.6333027370274,
+      "area_km2": 1.0,
+      "bounds": [
+        177420.0,
+        2236580.0,
+        178420.0,
+        2237580.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 84.23900798724226,
+      "centroid_lat": 20.44434884444473,
+      "centroid_x": 211920.0,
+      "centroid_y": 2263080.0,
+      "score": 679.7812266953988,
+      "area_km2": 1.0,
+      "bounds": [
+        211420.0,
+        2262580.0,
+        212420.0,
+        2263580.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 83.55234692391822,
+      "centroid_lat": 19.881628370130706,
+      "centroid_x": 138920.0,
+      "centroid_y": 2202080.0,
+      "score": 579.9951440412551,
+      "area_km2": 1.0,
+      "bounds": [
+        138420.0,
+        2201580.0,
+        139420.0,
+        2202580.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 83.69706908518468,
+      "centroid_lat": 19.803147588132326,
+      "centroid_x": 153920.0,
+      "centroid_y": 2193080.0,
+      "score": 551.4028295408934,
+      "area_km2": 1.0,
+      "bounds": [
+        153420.0,
+        2192580.0,
+        154420.0,
+        2193580.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 84.08512563500999,
+      "centroid_lat": 20.47794676629746,
+      "centroid_x": 195920.0,
+      "centroid_y": 2267080.0,
+      "score": 536.919282396324,
+      "area_km2": 1.0,
+      "bounds": [
+        195420.0,
+        2266580.0,
+        196420.0,
+        2267580.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 18.72,
+      "nearby_features": [
+        {
+          "name": "Baliguda",
+          "type": "urban_center",
+          "distance_km": 4.01,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (likely driven by Baliguda, ~4.01 km away)",
+      "confidence": 0.8999999999999999,
+      "narrative": "Hotspot 1 (20.2043\u00b0N, 83.9181\u00b0E), 2016\u21922024. New built-up area: 29.16 ha (18.72 ha from Rangeland, 5.4 ha from Trees, 5.04 ha from Crops). Why: nearest known feature is Baliguda (urban center), ~4.01 km away. District drivers: forest, shifting / tribal agriculture, urban expansion. Likely cause: Urban/industrial expansion onto rangeland (likely driven by Baliguda, ~4.01 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Baliguda (4.01 km)]. Confidence: 0.90.",
+      "new_built_area_ha": 29.16,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 52,
+          "area_ha": 18.72
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 15,
+          "area_ha": 5.4
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 14,
+          "area_ha": 5.04
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Baliguda (4.01 km)"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 11.88,
+      "nearby_features": [
+        {
+          "name": "Phulbani",
+          "type": "urban_center",
+          "distance_km": 3.35,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (likely driven by Phulbani, ~3.35 km away)",
+      "confidence": 0.8999999999999999,
+      "narrative": "Hotspot 2 (20.4443\u00b0N, 84.2390\u00b0E), 2016\u21922024. New built-up area: 29.52 ha (11.88 ha from Rangeland, 9.72 ha from Trees, 7.92 ha from Crops). Why: nearest known feature is Phulbani (urban center), ~3.35 km away. District drivers: forest, shifting / tribal agriculture, urban expansion. Likely cause: Urban/industrial expansion onto rangeland (likely driven by Phulbani, ~3.35 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Phulbani (3.35 km)]. Confidence: 0.90.",
+      "new_built_area_ha": 29.52,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 33,
+          "area_ha": 11.88
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 27,
+          "area_ha": 9.72
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 22,
+          "area_ha": 7.92
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Phulbani (3.35 km)"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Trees",
+      "transition_area_ha": 17.64,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Rangeland \u2192 Trees",
+      "confidence": 0.3,
+      "narrative": "Hotspot 3 (19.8816\u00b0N, 83.5523\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Rangeland \u2192 Trees (17.6 ha). Why: no specific nearby feature registered; district drivers are forest, shifting / tribal agriculture, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Rangeland \u2192 Trees. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Rangeland \u2192 Trees is canopy regrowth / reclamation, not settlement]. Confidence: 0.30.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Rangeland \u2192 Trees is canopy regrowth / reclamation, not settlement"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Trees",
+      "dominant_to": "Rangeland",
+      "transition_area_ha": 40.68,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland",
+      "confidence": 0.6,
+      "narrative": "Hotspot 4 (19.8031\u00b0N, 83.6971\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Rangeland (40.7 ha). Why: no specific nearby feature registered; district drivers are forest, shifting / tribal agriculture, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.60.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 16.92,
+      "nearby_features": [],
+      "likely_cause": "Urban/industrial expansion onto rangeland",
+      "confidence": 0.7,
+      "narrative": "Hotspot 5 (20.4779\u00b0N, 84.0851\u00b0E), 2016\u21922024. New built-up area: 16.92 ha (16.92 ha from Rangeland). Why: no specific nearby feature registered; district drivers are forest, shifting / tribal agriculture, urban expansion. Likely cause: Urban/industrial expansion onto rangeland. Demographic signal: mixed industrial + residential footprint [no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion]. Confidence: 0.70.",
+      "new_built_area_ha": 16.92,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 47,
+          "area_ha": 16.92
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 123207.48000000001
+}

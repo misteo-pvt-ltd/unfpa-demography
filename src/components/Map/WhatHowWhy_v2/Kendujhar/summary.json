@@ -1,0 +1,275 @@
+{
+  "district": "Kendujhar",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 85.42548257567694,
+      "centroid_lat": 21.874961307916305,
+      "centroid_x": 337320.0,
+      "centroid_y": 2419820.0,
+      "score": 860.0917595140636,
+      "area_km2": 1.0,
+      "bounds": [
+        336820.0,
+        2419320.0,
+        337820.0,
+        2420320.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 85.3858637922659,
+      "centroid_lat": 21.955866335593726,
+      "centroid_x": 333320.0,
+      "centroid_y": 2428820.0,
+      "score": 821.0827774107456,
+      "area_km2": 1.0,
+      "bounds": [
+        332820.0,
+        2428320.0,
+        333820.0,
+        2429320.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 85.44217311530733,
+      "centroid_lat": 22.118988119675915,
+      "centroid_x": 339320.0,
+      "centroid_y": 2446820.0,
+      "score": 736.4583434164524,
+      "area_km2": 1.0,
+      "bounds": [
+        338820.0,
+        2446320.0,
+        339820.0,
+        2447320.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 85.32586720415115,
+      "centroid_lat": 22.117836976395626,
+      "centroid_x": 327320.0,
+      "centroid_y": 2446820.0,
+      "score": 706.396853916347,
+      "area_km2": 1.0,
+      "bounds": [
+        326820.0,
+        2446320.0,
+        327820.0,
+        2447320.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 85.40381009363993,
+      "centroid_lat": 22.082489870534683,
+      "centroid_x": 335320.0,
+      "centroid_y": 2442820.0,
+      "score": 689.508812405169,
+      "area_km2": 1.0,
+      "bounds": [
+        334820.0,
+        2442320.0,
+        335820.0,
+        2443320.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 33.84,
+      "nearby_features": [
+        {
+          "name": "Banspani workforce settlement",
+          "type": "urban_center",
+          "distance_km": 0.8,
+          "source": "district_context"
+        },
+        {
+          "name": "Banspani-Joda iron-ore corridor",
+          "type": "iron_ore_mine",
+          "distance_km": 5.03,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (likely driven by Banspani workforce settlement, ~0.8 km away)",
+      "confidence": 0.8999999999999999,
+      "narrative": "Hotspot 1 (21.8750\u00b0N, 85.4255\u00b0E), 2016\u21922024. New built-up area: 46.44 ha (33.84 ha from Rangeland, 10.8 ha from Trees, 1.8 ha from Crops). Why: nearest known feature is Banspani workforce settlement (urban center), ~0.8 km away. District drivers: iron-ore mining, manganese, urban expansion. Likely cause: Urban/industrial expansion onto rangeland (likely driven by Banspani workforce settlement, ~0.8 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Banspani workforce settlement (0.8 km)]. Confidence: 0.90.",
+      "new_built_area_ha": 46.44,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 94,
+          "area_ha": 33.84
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 30,
+          "area_ha": 10.8
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 5,
+          "area_ha": 1.8
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Banspani workforce settlement (0.8 km)"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Trees",
+      "dominant_to": "Rangeland",
+      "transition_area_ha": 27.0,
+      "nearby_features": [
+        {
+          "name": "Banspani-Joda iron-ore corridor",
+          "type": "iron_ore_mine",
+          "distance_km": 6.05,
+          "source": "district_context"
+        },
+        {
+          "name": "Thakurani iron-ore mine",
+          "type": "iron_ore_mine",
+          "distance_km": 6.14,
+          "source": "district_context"
+        },
+        {
+          "name": "Banspani railway junction",
+          "type": "railway_station",
+          "distance_km": 8.96,
+          "source": "district_context"
+        },
+        {
+          "name": "Banspani workforce settlement",
+          "type": "urban_center",
+          "distance_km": 9.14,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland",
+      "confidence": 0.65,
+      "narrative": "Hotspot 2 (21.9559\u00b0N, 85.3859\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Rangeland (27.0 ha). Why: nearest known feature is Banspani-Joda iron-ore corridor (iron ore mine), ~6.05 km away. District drivers: iron-ore mining, manganese, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.65.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Trees",
+      "dominant_to": "Rangeland",
+      "transition_area_ha": 4.68,
+      "nearby_features": [
+        {
+          "name": "Barbil",
+          "type": "urban_center",
+          "distance_km": 6.69,
+          "source": "district_context"
+        },
+        {
+          "name": "Joda-Barbil iron-ore cluster",
+          "type": "iron_ore_mine",
+          "distance_km": 6.97,
+          "source": "district_context"
+        },
+        {
+          "name": "Joda",
+          "type": "urban_center",
+          "distance_km": 9.06,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland",
+      "confidence": 0.65,
+      "narrative": "Hotspot 3 (22.1190\u00b0N, 85.4422\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Rangeland (4.7 ha). Why: nearest known feature is Barbil (urban center), ~6.69 km away. District drivers: iron-ore mining, manganese, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.65.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Trees",
+      "transition_area_ha": 4.32,
+      "nearby_features": [
+        {
+          "name": "Barbil",
+          "type": "urban_center",
+          "distance_km": 5.86,
+          "source": "district_context"
+        },
+        {
+          "name": "Joda-Barbil iron-ore cluster",
+          "type": "iron_ore_mine",
+          "distance_km": 9.31,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Rangeland \u2192 Trees",
+      "confidence": 0.35,
+      "narrative": "Hotspot 4 (22.1178\u00b0N, 85.3259\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Rangeland \u2192 Trees (4.3 ha). Why: nearest known feature is Barbil (urban center), ~5.86 km away. District drivers: iron-ore mining, manganese, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Rangeland \u2192 Trees. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Rangeland \u2192 Trees is canopy regrowth / reclamation, not settlement]. Confidence: 0.35.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Rangeland \u2192 Trees is canopy regrowth / reclamation, not settlement"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Trees",
+      "transition_area_ha": 0.72,
+      "nearby_features": [
+        {
+          "name": "Joda-Barbil iron-ore cluster",
+          "type": "iron_ore_mine",
+          "distance_km": 1.44,
+          "source": "district_context"
+        },
+        {
+          "name": "Barbil",
+          "type": "urban_center",
+          "distance_km": 3.25,
+          "source": "district_context"
+        },
+        {
+          "name": "Joda",
+          "type": "urban_center",
+          "distance_km": 5.35,
+          "source": "district_context"
+        },
+        {
+          "name": "Banspani railway junction",
+          "type": "railway_station",
+          "distance_km": 6.07,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Rangeland \u2192 Trees",
+      "confidence": 0.35,
+      "narrative": "Hotspot 5 (22.0825\u00b0N, 85.4038\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Rangeland \u2192 Trees (0.7 ha). Why: nearest known feature is Joda-Barbil iron-ore cluster (iron ore mine), ~1.44 km away. District drivers: iron-ore mining, manganese, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Rangeland \u2192 Trees. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Rangeland \u2192 Trees is canopy regrowth / reclamation, not settlement]. Confidence: 0.35.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Rangeland \u2192 Trees is canopy regrowth / reclamation, not settlement"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 113536.80000000002
+}

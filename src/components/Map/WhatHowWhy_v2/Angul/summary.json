@@ -1,0 +1,677 @@
+{
+  "district": "Angul",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 85.01332839382619,
+      "centroid_lat": 20.944265859050187,
+      "centroid_x": 293420.0,
+      "centroid_y": 2317260.0,
+      "score": 713.4147257730365,
+      "area_km2": 1.0,
+      "bounds": [
+        292920.0,
+        2316760.0,
+        293920.0,
+        2317760.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 85.15785565190846,
+      "centroid_lat": 20.918791482253216,
+      "centroid_x": 308420.0,
+      "centroid_y": 2314260.0,
+      "score": 626.1165733834496,
+      "area_km2": 1.0,
+      "bounds": [
+        307920.0,
+        2313760.0,
+        308920.0,
+        2314760.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 85.11171407522379,
+      "centroid_lat": 20.764741238610785,
+      "centroid_x": 303420.0,
+      "centroid_y": 2297260.0,
+      "score": 593.9416392222047,
+      "area_km2": 1.0,
+      "bounds": [
+        302920.0,
+        2296760.0,
+        303920.0,
+        2297760.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 85.15972358885385,
+      "centroid_lat": 20.765262331087204,
+      "centroid_x": 308420.0,
+      "centroid_y": 2297260.0,
+      "score": 579.3864321932197,
+      "area_km2": 1.0,
+      "bounds": [
+        307920.0,
+        2296760.0,
+        308920.0,
+        2297760.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 84.83888301193268,
+      "centroid_lat": 21.04148396959506,
+      "centroid_x": 275420.0,
+      "centroid_y": 2328260.0,
+      "score": 510.34627094771713,
+      "area_km2": 1.0,
+      "bounds": [
+        274920.0,
+        2327760.0,
+        275920.0,
+        2328760.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 18.36,
+      "nearby_features": [
+        {
+          "name": "NTPC Talcher Super Thermal",
+          "type": "thermal_power_plant",
+          "distance_km": 1.27,
+          "source": "district_context"
+        },
+        {
+          "name": "MCL Balaram OCP",
+          "type": "coal_mine",
+          "distance_km": 5.77,
+          "source": "district_context"
+        },
+        {
+          "name": "MCL Hingula OCP",
+          "type": "coal_mine",
+          "distance_km": 6.79,
+          "source": "district_context"
+        },
+        {
+          "name": "MCL Bharatpur OCP",
+          "type": "coal_mine",
+          "distance_km": 8.06,
+          "source": "district_context"
+        },
+        {
+          "name": "MCL Lingaraj OCP",
+          "type": "coal_mine",
+          "distance_km": 9.55,
+          "source": "district_context"
+        },
+        {
+          "name": "(unnamed mine)",
+          "type": "mine",
+          "distance_km": 1.0,
+          "source": "osm"
+        },
+        {
+          "name": "Hingula-II Coal Mine",
+          "type": "mine",
+          "distance_km": 2.44,
+          "source": "osm"
+        },
+        {
+          "name": "Angul Monnet Power Company Limited",
+          "type": "industrial",
+          "distance_km": 3.2,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed industrial)",
+          "type": "industrial",
+          "distance_km": 3.47,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed road)",
+          "type": "road",
+          "distance_km": 3.96,
+          "source": "osm"
+        },
+        {
+          "name": "Angul - Deogarh Road",
+          "type": "road",
+          "distance_km": 3.98,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed road)",
+          "type": "road",
+          "distance_km": 4.06,
+          "source": "osm"
+        },
+        {
+          "name": "Angul - Deogarh Road",
+          "type": "road",
+          "distance_km": 4.15,
+          "source": "osm"
+        },
+        {
+          "name": "Angul - Deogarh Road",
+          "type": "road",
+          "distance_km": 5.27,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed road)",
+          "type": "road",
+          "distance_km": 5.72,
+          "source": "osm"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by NTPC Talcher Super Thermal, ~1.27 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 1 (20.9443\u00b0N, 85.0133\u00b0E), 2016\u21922024. New built-up area: 20.88 ha (18.36 ha from Trees, 2.52 ha from Rangeland). Why: nearest known feature is NTPC Talcher Super Thermal (thermal power plant), ~1.27 km away. District drivers: coal mining, thermal power generation, aluminium smelting. Likely cause: Forest cleared for urban or industrial development (likely driven by NTPC Talcher Super Thermal, ~1.27 km away). Demographic signal: mixed industrial + residential footprint [mining_adjacent/industrial drivers overlap (MCL Balaram OCP (5.77 km), MCL Hingula OCP (6.79 km); NTPC Talcher Super Thermal (1.27 km))]. Confidence: 0.95.",
+      "new_built_area_ha": 20.88,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 51,
+          "area_ha": 18.36
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 7,
+          "area_ha": 2.52
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "mining_adjacent/industrial drivers overlap (MCL Balaram OCP (5.77 km), MCL Hingula OCP (6.79 km); NTPC Talcher Super Thermal (1.27 km))"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 22.32,
+      "nearby_features": [
+        {
+          "name": "NTPC Kaniha Super Thermal",
+          "type": "thermal_power_plant",
+          "distance_km": 3.0,
+          "source": "district_context"
+        },
+        {
+          "name": "Banarpal",
+          "type": "urban_center",
+          "distance_km": 3.21,
+          "source": "district_context"
+        },
+        {
+          "name": "Talcher Fertilizers Ltd",
+          "type": "fertiliser_plant",
+          "distance_km": 4.64,
+          "source": "district_context"
+        },
+        {
+          "name": "MCL Kaniha OCP",
+          "type": "coal_mine",
+          "distance_km": 6.47,
+          "source": "district_context"
+        },
+        {
+          "name": "NTPC Talcher Thermal",
+          "type": "thermal_power_plant",
+          "distance_km": 7.03,
+          "source": "district_context"
+        },
+        {
+          "name": "NALCO Captive Power Plant",
+          "type": "thermal_power_plant",
+          "distance_km": 7.33,
+          "source": "district_context"
+        },
+        {
+          "name": "MCL Bhubaneswari OCP",
+          "type": "coal_mine",
+          "distance_km": 7.41,
+          "source": "district_context"
+        },
+        {
+          "name": "Jindal Power Angul CPP",
+          "type": "thermal_power_plant",
+          "distance_km": 7.63,
+          "source": "district_context"
+        },
+        {
+          "name": "NALCO Angul Smelter",
+          "type": "aluminium_smelter",
+          "distance_km": 8.06,
+          "source": "district_context"
+        },
+        {
+          "name": "Talcher Road railway junction",
+          "type": "railway_station",
+          "distance_km": 8.26,
+          "source": "district_context"
+        },
+        {
+          "name": "Jindal Stainless Angul",
+          "type": "steel_plant",
+          "distance_km": 8.35,
+          "source": "district_context"
+        },
+        {
+          "name": "Talcher town",
+          "type": "urban_center",
+          "distance_km": 8.57,
+          "source": "district_context"
+        },
+        {
+          "name": "Kaniha",
+          "type": "urban_center",
+          "distance_km": 9.48,
+          "source": "district_context"
+        },
+        {
+          "name": "(unnamed industrial)",
+          "type": "industrial",
+          "distance_km": 0.57,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed railway)",
+          "type": "railway",
+          "distance_km": 1.17,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed mine)",
+          "type": "mine",
+          "distance_km": 1.27,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed industrial)",
+          "type": "industrial",
+          "distance_km": 1.27,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed railway)",
+          "type": "railway",
+          "distance_km": 1.28,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed railway)",
+          "type": "railway",
+          "distance_km": 1.28,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed urban)",
+          "type": "urban",
+          "distance_km": 1.74,
+          "source": "osm"
+        },
+        {
+          "name": "Angul - Talcher Road",
+          "type": "road",
+          "distance_km": 2.09,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed railway)",
+          "type": "railway",
+          "distance_km": 2.2,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed mine)",
+          "type": "mine",
+          "distance_km": 2.24,
+          "source": "osm"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by NTPC Kaniha Super Thermal, ~3.0 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 2 (20.9188\u00b0N, 85.1579\u00b0E), 2016\u21922024. New built-up area: 33.84 ha (22.32 ha from Trees, 11.16 ha from Rangeland, 0.36 ha from Crops). Why: nearest known feature is NTPC Kaniha Super Thermal (thermal power plant), ~3.0 km away. District drivers: coal mining, thermal power generation, aluminium smelting. Likely cause: Forest cleared for urban or industrial development (likely driven by NTPC Kaniha Super Thermal, ~3.0 km away). Demographic signal: industrial build-out (plant expansion, workforce housing likely) [dominated by industrial driver(s): NTPC Kaniha Super Thermal (3.0 km), Talcher Fertilizers Ltd (4.64 km), NTPC Talcher Thermal (7.03 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 33.84,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 62,
+          "area_ha": 22.32
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 31,
+          "area_ha": 11.16
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "dominated by industrial driver(s): NTPC Kaniha Super Thermal (3.0 km), Talcher Fertilizers Ltd (4.64 km), NTPC Talcher Thermal (7.03 km)"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 18.72,
+      "nearby_features": [
+        {
+          "name": "Angul railway station",
+          "type": "railway_station",
+          "distance_km": 8.46,
+          "source": "district_context"
+        },
+        {
+          "name": "Angul town",
+          "type": "urban_center",
+          "distance_km": 8.92,
+          "source": "district_context"
+        },
+        {
+          "name": "NALCO Angul Smelter",
+          "type": "aluminium_smelter",
+          "distance_km": 9.74,
+          "source": "district_context"
+        },
+        {
+          "name": "Angul - Narasinghpur Road",
+          "type": "road",
+          "distance_km": 2.54,
+          "source": "osm"
+        },
+        {
+          "name": "Angul - Narasinghpur Road",
+          "type": "road",
+          "distance_km": 3.49,
+          "source": "osm"
+        },
+        {
+          "name": "Angul - Narasinghpur Road",
+          "type": "road",
+          "distance_km": 4.25,
+          "source": "osm"
+        },
+        {
+          "name": "Angul Bypass",
+          "type": "road",
+          "distance_km": 4.39,
+          "source": "osm"
+        },
+        {
+          "name": "Angul Bypass",
+          "type": "road",
+          "distance_km": 4.39,
+          "source": "osm"
+        },
+        {
+          "name": "Angul Bypass",
+          "type": "road",
+          "distance_km": 4.4,
+          "source": "osm"
+        },
+        {
+          "name": "Angul Bypass",
+          "type": "road",
+          "distance_km": 4.41,
+          "source": "osm"
+        },
+        {
+          "name": "Angul Bypass",
+          "type": "road",
+          "distance_km": 4.41,
+          "source": "osm"
+        },
+        {
+          "name": "Angul Bypass",
+          "type": "road",
+          "distance_km": 4.42,
+          "source": "osm"
+        },
+        {
+          "name": "Saradhapur",
+          "type": "settlement",
+          "distance_km": 4.9,
+          "source": "osm"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (nearest known feature: Angul railway station, ~8.46 km)",
+      "confidence": 0.8,
+      "narrative": "Hotspot 3 (20.7647\u00b0N, 85.1117\u00b0E), 2016\u21922024. New built-up area: 33.12 ha (18.72 ha from Trees, 13.68 ha from Crops, 0.72 ha from Rangeland). Why: nearest known feature is Angul railway station (railway station), ~8.46 km away. District drivers: coal mining, thermal power generation, aluminium smelting. Likely cause: Forest cleared for urban or industrial development (nearest known feature: Angul railway station, ~8.46 km). Demographic signal: transport-corridor development (station/road-led commercial growth) [dominated by transport driver(s): Angul railway station (8.46 km), Angul - Narasinghpur Road (2.54 km), Angul - Narasinghpur Road (3.49 km)]. Confidence: 0.80.",
+      "new_built_area_ha": 33.12,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 52,
+          "area_ha": 18.72
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 38,
+          "area_ha": 13.68
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        }
+      ],
+      "settlement_type": "transport",
+      "settlement_rationale": "dominated by transport driver(s): Angul railway station (8.46 km), Angul - Narasinghpur Road (2.54 km), Angul - Narasinghpur Road (3.49 km)"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 16.2,
+      "nearby_features": [
+        {
+          "name": "NALCO Angul Smelter",
+          "type": "aluminium_smelter",
+          "distance_km": 9.81,
+          "source": "district_context"
+        },
+        {
+          "name": "Angul - Narasinghpur Road",
+          "type": "road",
+          "distance_km": 1.68,
+          "source": "osm"
+        },
+        {
+          "name": "Angul - Narasinghpur Road",
+          "type": "road",
+          "distance_km": 2.46,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed urban)",
+          "type": "urban",
+          "distance_km": 2.97,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed urban)",
+          "type": "urban",
+          "distance_km": 3.14,
+          "source": "osm"
+        },
+        {
+          "name": "Angul - Narasinghpur Road",
+          "type": "road",
+          "distance_km": 3.58,
+          "source": "osm"
+        },
+        {
+          "name": "Angul Bypass",
+          "type": "road",
+          "distance_km": 3.91,
+          "source": "osm"
+        },
+        {
+          "name": "Angul Bypass",
+          "type": "road",
+          "distance_km": 3.93,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed urban)",
+          "type": "urban",
+          "distance_km": 4.23,
+          "source": "osm"
+        },
+        {
+          "name": "Angul - Narasinghpur Road",
+          "type": "road",
+          "distance_km": 4.41,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed urban)",
+          "type": "urban",
+          "distance_km": 5.12,
+          "source": "osm"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (likely driven by NALCO Angul Smelter, ~9.81 km away)",
+      "confidence": 0.8999999999999999,
+      "narrative": "Hotspot 4 (20.7653\u00b0N, 85.1597\u00b0E), 2016\u21922024. New built-up area: 30.6 ha (16.2 ha from Rangeland, 13.32 ha from Trees, 1.08 ha from Crops). Why: nearest known feature is NALCO Angul Smelter (aluminium smelter), ~9.81 km away. District drivers: coal mining, thermal power generation, aluminium smelting. Likely cause: Urban/industrial expansion onto rangeland (likely driven by NALCO Angul Smelter, ~9.81 km away). Demographic signal: mixed industrial + residential footprint [transport/residential/industrial drivers overlap (Angul - Narasinghpur Road (1.68 km), Angul - Narasinghpur Road (2.46 km); (unnamed urban) (2.97 km), (unnamed urban) (3.14 km))]. Confidence: 0.90.",
+      "new_built_area_ha": 30.6,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 45,
+          "area_ha": 16.2
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 37,
+          "area_ha": 13.32
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 3,
+          "area_ha": 1.08
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "transport/residential/industrial drivers overlap (Angul - Narasinghpur Road (1.68 km), Angul - Narasinghpur Road (2.46 km); (unnamed urban) (2.97 km), (unnamed urban) (3.14 km))"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 23.04,
+      "nearby_features": [
+        {
+          "name": "Chhendipada",
+          "type": "urban_center",
+          "distance_km": 3.23,
+          "source": "district_context"
+        },
+        {
+          "name": "Angul - Deogarh Road",
+          "type": "road",
+          "distance_km": 5.92,
+          "source": "osm"
+        },
+        {
+          "name": "Chhendipada",
+          "type": "settlement",
+          "distance_km": 5.93,
+          "source": "osm"
+        },
+        {
+          "name": "Angul - Deogarh Road",
+          "type": "road",
+          "distance_km": 6.94,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed settlement)",
+          "type": "settlement",
+          "distance_km": 8.09,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed settlement)",
+          "type": "settlement",
+          "distance_km": 8.33,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed settlement)",
+          "type": "settlement",
+          "distance_km": 8.36,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed settlement)",
+          "type": "settlement",
+          "distance_km": 8.96,
+          "source": "osm"
+        },
+        {
+          "name": "Angul - Deogarh Road",
+          "type": "road",
+          "distance_km": 9.45,
+          "source": "osm"
+        },
+        {
+          "name": "Gauduni",
+          "type": "river",
+          "distance_km": 10.71,
+          "source": "osm"
+        },
+        {
+          "name": "(unnamed river)",
+          "type": "river",
+          "distance_km": 11.9,
+          "source": "osm"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Chhendipada, ~3.23 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 5 (21.0415\u00b0N, 84.8389\u00b0E), 2016\u21922024. New built-up area: 25.2 ha (23.04 ha from Crops, 2.16 ha from Trees). Why: nearest known feature is Chhendipada (urban center), ~3.23 km away. District drivers: coal mining, thermal power generation, aluminium smelting. Likely cause: Urban or industrial expansion onto farmland (likely driven by Chhendipada, ~3.23 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Chhendipada (3.23 km), Chhendipada (5.93 km), (unnamed settlement) (8.09 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 25.2,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 64,
+          "area_ha": 23.04
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 6,
+          "area_ha": 2.16
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Chhendipada (3.23 km), Chhendipada (5.93 km), (unnamed settlement) (8.09 km)"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 91824.84000000001
+}

@@ -1,0 +1,48 @@
+{
+  "source": "GHS SMOD R2023A v2.0",
+  "resolution_m": 1000,
+  "crs": "EPSG:3857",
+  "years": [2010, 2015, 2020, 2025, 2030],
+  "districts": [
+    "Anugul",
+    "Balangir",
+    "Cuttack",
+    "Kendujhar",
+    "Khordha",
+    "Mayurbhanj",
+    "Sambalpur",
+    "Sundargarh"
+  ],
+  "classes": {
+    "11": {
+      "label": "Very low density rural",
+      "color": "#d9d9b3"
+    },
+    "12": {
+      "label": "Low density rural",
+      "color": "#cccc66"
+    },
+    "13": {
+      "label": "Rural cluster",
+      "color": "#a3a347"
+    },
+    "21": {
+      "label": "Suburban / peri-urban",
+      "color": "#ffaa00"
+    },
+    "22": {
+      "label": "Semi-dense urban cluster",
+      "color": "#ff5500"
+    },
+    "23": {
+      "label": "Dense urban cluster",
+      "color": "#cc0000"
+    },
+    "30": {
+      "label": "Urban centre",
+      "color": "#660000"
+    }
+  },
+  "nodata": 0,
+  "notes": "Categorical raster. Use nearest-neighbour resampling at any zoom level. Reprojected from EPSG:54009 (Mollweide) to EPSG:3857 for MapLibre."
+}

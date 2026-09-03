@@ -1,0 +1,255 @@
+{
+  "district": "Bargarh",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 83.57602132680528,
+      "centroid_lat": 21.19632527623395,
+      "centroid_x": 144460.0,
+      "centroid_y": 2347720.0,
+      "score": 617.0182442441583,
+      "area_km2": 1.0,
+      "bounds": [
+        143960.0,
+        2347220.0,
+        144960.0,
+        2348220.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 82.81433492657868,
+      "centroid_lat": 20.91764364425566,
+      "centroid_x": 64460.0,
+      "centroid_y": 2318720.0,
+      "score": 585.1863024048507,
+      "area_km2": 1.0,
+      "bounds": [
+        63960.0,
+        2318220.0,
+        64960.0,
+        2319220.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 83.31257254293351,
+      "centroid_lat": 20.956213030095277,
+      "centroid_x": 116460.0,
+      "centroid_y": 2321720.0,
+      "score": 581.0337436944246,
+      "area_km2": 1.0,
+      "bounds": [
+        115960.0,
+        2321220.0,
+        116960.0,
+        2322220.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 83.40051661859877,
+      "centroid_lat": 21.291917204548923,
+      "centroid_x": 126460.0,
+      "centroid_y": 2358720.0,
+      "score": 573.0909978970885,
+      "area_km2": 1.0,
+      "bounds": [
+        125960.0,
+        2358220.0,
+        126960.0,
+        2359220.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 83.60093430610975,
+      "centroid_lat": 21.368276573208252,
+      "centroid_x": 147460.0,
+      "centroid_y": 2366720.0,
+      "score": 559.8269598484039,
+      "area_km2": 1.0,
+      "bounds": [
+        146960.0,
+        2366220.0,
+        147960.0,
+        2367220.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 23.4,
+      "nearby_features": [],
+      "likely_cause": "Urban or industrial expansion onto farmland",
+      "confidence": 0.75,
+      "narrative": "Hotspot 1 (21.1963\u00b0N, 83.5760\u00b0E), 2016\u21922024. New built-up area: 23.4 ha (23.4 ha from Crops). Why: no specific nearby feature registered; district drivers are agricultural activity, cement manufacturing, urban expansion. Likely cause: Urban or industrial expansion onto farmland. Demographic signal: settlement / peri-urban growth (housing, population inflow) [no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland]. Confidence: 0.75.",
+      "new_built_area_ha": 23.4,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 65,
+          "area_ha": 23.4
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 14.04,
+      "nearby_features": [],
+      "likely_cause": "Urban or industrial expansion onto farmland",
+      "confidence": 0.75,
+      "narrative": "Hotspot 2 (20.9176\u00b0N, 82.8143\u00b0E), 2016\u21922024. New built-up area: 18.0 ha (14.04 ha from Crops, 3.24 ha from Trees, 0.72 ha from Rangeland). Why: no specific nearby feature registered; district drivers are agricultural activity, cement manufacturing, urban expansion. Likely cause: Urban or industrial expansion onto farmland. Demographic signal: settlement / peri-urban growth (housing, population inflow) [no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland]. Confidence: 0.75.",
+      "new_built_area_ha": 18.0,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 39,
+          "area_ha": 14.04
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 9,
+          "area_ha": 3.24
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 17.64,
+      "nearby_features": [],
+      "likely_cause": "Urban or industrial expansion onto farmland",
+      "confidence": 0.75,
+      "narrative": "Hotspot 3 (20.9562\u00b0N, 83.3126\u00b0E), 2016\u21922024. New built-up area: 19.44 ha (17.64 ha from Crops, 1.08 ha from Rangeland, 0.36 ha from Trees). Why: no specific nearby feature registered; district drivers are agricultural activity, cement manufacturing, urban expansion. Likely cause: Urban or industrial expansion onto farmland. Demographic signal: settlement / peri-urban growth (housing, population inflow) [no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland]. Confidence: 0.75.",
+      "new_built_area_ha": 19.44,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 49,
+          "area_ha": 17.64
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 3,
+          "area_ha": 1.08
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        },
+        {
+          "from_label": "Water",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 14.76,
+      "nearby_features": [
+        {
+          "name": "Sohela",
+          "type": "urban_center",
+          "distance_km": 3.91,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Sohela, ~3.91 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 4 (21.2919\u00b0N, 83.4005\u00b0E), 2016\u21922024. New built-up area: 20.16 ha (14.76 ha from Crops, 4.32 ha from Rangeland, 1.08 ha from Trees). Why: nearest known feature is Sohela (urban center), ~3.91 km away. District drivers: agricultural activity, cement manufacturing, urban expansion. Likely cause: Urban or industrial expansion onto farmland (likely driven by Sohela, ~3.91 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Sohela (3.91 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 20.16,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 41,
+          "area_ha": 14.76
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 12,
+          "area_ha": 4.32
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 3,
+          "area_ha": 1.08
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Sohela (3.91 km)"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 11.16,
+      "nearby_features": [
+        {
+          "name": "Bargarh Road railway station",
+          "type": "railway_station",
+          "distance_km": 3.71,
+          "source": "district_context"
+        },
+        {
+          "name": "Bargarh town",
+          "type": "urban_center",
+          "distance_km": 3.92,
+          "source": "district_context"
+        },
+        {
+          "name": "ACC Bargarh Cement Plant",
+          "type": "cement_plant",
+          "distance_km": 4.35,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (nearest known feature: Bargarh Road railway station, ~3.71 km)",
+      "confidence": 0.8,
+      "narrative": "Hotspot 5 (21.3683\u00b0N, 83.6009\u00b0E), 2016\u21922024. New built-up area: 11.16 ha (11.16 ha from Crops). Why: nearest known feature is Bargarh Road railway station (railway station), ~3.71 km away. District drivers: agricultural activity, cement manufacturing, urban expansion. Likely cause: Urban or industrial expansion onto farmland (nearest known feature: Bargarh Road railway station, ~3.71 km). Demographic signal: mixed industrial + residential footprint [residential/industrial/transport drivers overlap (Bargarh town (3.92 km); ACC Bargarh Cement Plant (4.35 km))]. Confidence: 0.80.",
+      "new_built_area_ha": 11.16,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 31,
+          "area_ha": 11.16
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "residential/industrial/transport drivers overlap (Bargarh town (3.92 km); ACC Bargarh Cement Plant (4.35 km))"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 121816.8
+}

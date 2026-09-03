@@ -1,0 +1,262 @@
+{
+  "district": "Kendrapara",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 86.67247737262682,
+      "centroid_lat": 20.369815877816542,
+      "centroid_x": 465820.0,
+      "centroid_y": 2252440.0,
+      "score": 883.0670517645776,
+      "area_km2": 1.0,
+      "bounds": [
+        465320.0,
+        2251940.0,
+        466320.0,
+        2252940.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 86.52871869624344,
+      "centroid_lat": 20.378523004307603,
+      "centroid_x": 450820.0,
+      "centroid_y": 2253440.0,
+      "score": 581.6860972666182,
+      "area_km2": 1.0,
+      "bounds": [
+        450320.0,
+        2252940.0,
+        451320.0,
+        2253940.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 86.51837447796893,
+      "centroid_lat": 20.622464883471167,
+      "centroid_x": 449820.0,
+      "centroid_y": 2280440.0,
+      "score": 564.5542006893083,
+      "area_km2": 1.0,
+      "bounds": [
+        449320.0,
+        2279940.0,
+        450320.0,
+        2280940.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 86.72029052886379,
+      "centroid_lat": 20.424116236086064,
+      "centroid_x": 470820.0,
+      "centroid_y": 2258440.0,
+      "score": 544.0178404673934,
+      "area_km2": 1.0,
+      "bounds": [
+        470320.0,
+        2257940.0,
+        471320.0,
+        2258940.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 86.63350465365401,
+      "centroid_lat": 20.64081922983884,
+      "centroid_x": 461820.0,
+      "centroid_y": 2282440.0,
+      "score": 510.4913005257258,
+      "area_km2": 1.0,
+      "bounds": [
+        461320.0,
+        2281940.0,
+        462320.0,
+        2282940.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "unchanged",
+      "dominant_to": "unchanged",
+      "transition_area_ha": 0.0,
+      "nearby_features": [],
+      "likely_cause": "Unclassified land-cover change",
+      "confidence": 0.3,
+      "narrative": "Hotspot 1 (20.3698\u00b0N, 86.6725\u00b0E), 2016\u21922024. New built-up area: 79.2 ha (72.0 ha from Trees, 7.2 ha from Crops). Why: no specific nearby feature registered; district drivers are agricultural activity, mangrove dynamics, urban expansion. Likely cause: Unclassified land-cover change. Demographic signal: industrial build-out (plant expansion, workforce housing likely) [no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance]. Confidence: 0.30.",
+      "new_built_area_ha": 79.2,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 200,
+          "area_ha": 72.0
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 20,
+          "area_ha": 7.2
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 21.6,
+      "nearby_features": [
+        {
+          "name": "Marshaghai",
+          "type": "urban_center",
+          "distance_km": 2.28,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Marshaghai, ~2.28 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 2 (20.3785\u00b0N, 86.5287\u00b0E), 2016\u21922024. New built-up area: 42.12 ha (21.6 ha from Trees, 16.92 ha from Crops, 3.6 ha from Rangeland). Why: nearest known feature is Marshaghai (urban center), ~2.28 km away. District drivers: agricultural activity, mangrove dynamics, urban expansion. Likely cause: Forest cleared for urban or industrial development (likely driven by Marshaghai, ~2.28 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Marshaghai (2.28 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 42.12,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 60,
+          "area_ha": 21.6
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 47,
+          "area_ha": 16.92
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 10,
+          "area_ha": 3.6
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Marshaghai (2.28 km)"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 31.68,
+      "nearby_features": [
+        {
+          "name": "Pattamundai",
+          "type": "urban_center",
+          "distance_km": 7.02,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Pattamundai, ~7.02 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 3 (20.6225\u00b0N, 86.5184\u00b0E), 2016\u21922024. New built-up area: 45.0 ha (31.68 ha from Trees, 13.32 ha from Rangeland). Why: nearest known feature is Pattamundai (urban center), ~7.02 km away. District drivers: agricultural activity, mangrove dynamics, urban expansion. Likely cause: Forest cleared for urban or industrial development (likely driven by Pattamundai, ~7.02 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Pattamundai (7.02 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 45.0,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 88,
+          "area_ha": 31.68
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 37,
+          "area_ha": 13.32
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Pattamundai (7.02 km)"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 38.16,
+      "nearby_features": [
+        {
+          "name": "Mahakalapada",
+          "type": "urban_center",
+          "distance_km": 6.91,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Mahakalapada, ~6.91 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 4 (20.4241\u00b0N, 86.7203\u00b0E), 2016\u21922024. New built-up area: 39.6 ha (38.16 ha from Trees, 1.08 ha from Rangeland, 0.36 ha from Crops). Why: nearest known feature is Mahakalapada (urban center), ~6.91 km away. District drivers: agricultural activity, mangrove dynamics, urban expansion. Likely cause: Forest cleared for urban or industrial development (likely driven by Mahakalapada, ~6.91 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Mahakalapada (6.91 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 39.6,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 106,
+          "area_ha": 38.16
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 3,
+          "area_ha": 1.08
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Mahakalapada (6.91 km)"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 19.44,
+      "nearby_features": [
+        {
+          "name": "Aul",
+          "type": "urban_center",
+          "distance_km": 4.58,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (likely driven by Aul, ~4.58 km away)",
+      "confidence": 0.8999999999999999,
+      "narrative": "Hotspot 5 (20.6408\u00b0N, 86.6335\u00b0E), 2016\u21922024. New built-up area: 44.28 ha (19.44 ha from Rangeland, 19.44 ha from Trees, 5.4 ha from Crops). Why: nearest known feature is Aul (urban center), ~4.58 km away. District drivers: agricultural activity, mangrove dynamics, urban expansion. Likely cause: Urban/industrial expansion onto rangeland (likely driven by Aul, ~4.58 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Aul (4.58 km)]. Confidence: 0.90.",
+      "new_built_area_ha": 44.28,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 54,
+          "area_ha": 19.44
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 54,
+          "area_ha": 19.44
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 15,
+          "area_ha": 5.4
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Aul (4.58 km)"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 38333.52
+}

@@ -1,0 +1,171 @@
+{
+  "district": "Nayagarh",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 84.84531480310125,
+      "centroid_lat": 20.480374042482726,
+      "centroid_x": 275260.0,
+      "centroid_y": 2266120.0,
+      "score": 521.1441357135773,
+      "area_km2": 1.0,
+      "bounds": [
+        274760.0,
+        2265620.0,
+        275760.0,
+        2266620.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 84.87431098606885,
+      "centroid_lat": 20.462668374343952,
+      "centroid_x": 278260.0,
+      "centroid_y": 2264120.0,
+      "score": 494.30492174625397,
+      "area_km2": 1.0,
+      "bounds": [
+        277760.0,
+        2263620.0,
+        278760.0,
+        2264620.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 84.81618424416968,
+      "centroid_lat": 20.507103811211476,
+      "centroid_x": 272260.0,
+      "centroid_y": 2269120.0,
+      "score": 493.4152640476823,
+      "area_km2": 1.0,
+      "bounds": [
+        271760.0,
+        2268620.0,
+        272760.0,
+        2269620.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 84.75894512587975,
+      "centroid_lat": 20.488312082558764,
+      "centroid_x": 266260.0,
+      "centroid_y": 2267120.0,
+      "score": 471.9081260561943,
+      "area_km2": 1.0,
+      "bounds": [
+        265760.0,
+        2266620.0,
+        266760.0,
+        2267620.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 85.0248843418092,
+      "centroid_lat": 19.922502183919708,
+      "centroid_x": 293260.0,
+      "centroid_y": 2204120.0,
+      "score": 461.051262229681,
+      "area_km2": 1.0,
+      "bounds": [
+        292760.0,
+        2203620.0,
+        293760.0,
+        2204620.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "unchanged",
+      "dominant_to": "unchanged",
+      "transition_area_ha": 0.0,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged",
+      "confidence": 0.3,
+      "narrative": "Hotspot 1 (20.4804\u00b0N, 84.8453\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: unchanged \u2192 unchanged (0.0 ha). Why: no specific nearby feature registered; district drivers are agricultural activity, forest, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged. Demographic signal: unclassified \u2014 needs ground-truth [no Built-class conversion inside hotspot; spectral change without a clear land-cover flip]. Confidence: 0.30.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "unclassified",
+      "settlement_rationale": "no Built-class conversion inside hotspot; spectral change without a clear land-cover flip"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "unchanged",
+      "dominant_to": "unchanged",
+      "transition_area_ha": 0.0,
+      "nearby_features": [
+        {
+          "name": "Daspalla",
+          "type": "urban_center",
+          "distance_km": 9.54,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged",
+      "confidence": 0.35,
+      "narrative": "Hotspot 2 (20.4627\u00b0N, 84.8743\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: unchanged \u2192 unchanged (0.0 ha). Why: nearest known feature is Daspalla (urban center), ~9.54 km away. District drivers: agricultural activity, forest, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged. Demographic signal: unclassified \u2014 needs ground-truth [no Built-class conversion inside hotspot; spectral change without a clear land-cover flip]. Confidence: 0.35.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "unclassified",
+      "settlement_rationale": "no Built-class conversion inside hotspot; spectral change without a clear land-cover flip"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "unchanged",
+      "dominant_to": "unchanged",
+      "transition_area_ha": 0.0,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged",
+      "confidence": 0.3,
+      "narrative": "Hotspot 3 (20.5071\u00b0N, 84.8162\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: unchanged \u2192 unchanged (0.0 ha). Why: no specific nearby feature registered; district drivers are agricultural activity, forest, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged. Demographic signal: unclassified \u2014 needs ground-truth [no Built-class conversion inside hotspot; spectral change without a clear land-cover flip]. Confidence: 0.30.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "unclassified",
+      "settlement_rationale": "no Built-class conversion inside hotspot; spectral change without a clear land-cover flip"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "unchanged",
+      "dominant_to": "unchanged",
+      "transition_area_ha": 0.0,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged",
+      "confidence": 0.3,
+      "narrative": "Hotspot 4 (20.4883\u00b0N, 84.7589\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: unchanged \u2192 unchanged (0.0 ha). Why: no specific nearby feature registered; district drivers are agricultural activity, forest, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged. Demographic signal: unclassified \u2014 needs ground-truth [no Built-class conversion inside hotspot; spectral change without a clear land-cover flip]. Confidence: 0.30.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "unclassified",
+      "settlement_rationale": "no Built-class conversion inside hotspot; spectral change without a clear land-cover flip"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "unchanged",
+      "dominant_to": "unchanged",
+      "transition_area_ha": 0.0,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged",
+      "confidence": 0.3,
+      "narrative": "Hotspot 5 (19.9225\u00b0N, 85.0249\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: unchanged \u2192 unchanged (0.0 ha). Why: no specific nearby feature registered; district drivers are agricultural activity, forest, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged. Demographic signal: unclassified \u2014 needs ground-truth [no Built-class conversion inside hotspot; spectral change without a clear land-cover flip]. Confidence: 0.30.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "unclassified",
+      "settlement_rationale": "no Built-class conversion inside hotspot; spectral change without a clear land-cover flip"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 34344.35999999999
+}

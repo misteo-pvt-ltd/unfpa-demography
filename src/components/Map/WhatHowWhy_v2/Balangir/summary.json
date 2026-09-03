@@ -1,0 +1,276 @@
+{
+  "district": "Balangir",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 83.47236761787002,
+      "centroid_lat": 20.718865727246854,
+      "centroid_x": 132520.0,
+      "centroid_y": 2295040.0,
+      "score": 711.9464330080664,
+      "area_km2": 1.0,
+      "bounds": [
+        132020.0,
+        2294540.0,
+        133020.0,
+        2295540.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 82.90394269604366,
+      "centroid_lat": 20.462760195560573,
+      "centroid_x": 72520.0,
+      "centroid_y": 2268040.0,
+      "score": 510.23416953734704,
+      "area_km2": 1.0,
+      "bounds": [
+        72020.0,
+        2267540.0,
+        73020.0,
+        2268540.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 83.58700052827206,
+      "centroid_lat": 20.73922744499593,
+      "centroid_x": 144520.0,
+      "centroid_y": 2297040.0,
+      "score": 497.4539179967221,
+      "area_km2": 1.0,
+      "bounds": [
+        144020.0,
+        2296540.0,
+        145020.0,
+        2297540.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 82.93263366664652,
+      "centroid_lat": 20.463434789111687,
+      "centroid_x": 75520.0,
+      "centroid_y": 2268040.0,
+      "score": 443.65710901253624,
+      "area_km2": 1.0,
+      "bounds": [
+        75020.0,
+        2267540.0,
+        76020.0,
+        2268540.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 83.53009010311393,
+      "centroid_lat": 20.711017043193902,
+      "centroid_x": 138520.0,
+      "centroid_y": 2294040.0,
+      "score": 442.9648472794797,
+      "area_km2": 1.0,
+      "bounds": [
+        138020.0,
+        2293540.0,
+        139020.0,
+        2294540.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 47.16,
+      "nearby_features": [
+        {
+          "name": "Balangir town",
+          "type": "urban_center",
+          "distance_km": 2.03,
+          "source": "district_context"
+        },
+        {
+          "name": "Balangir railway station",
+          "type": "railway_station",
+          "distance_km": 2.81,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Balangir town, ~2.03 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 1 (20.7189\u00b0N, 83.4724\u00b0E), 2016\u21922024. New built-up area: 50.04 ha (47.16 ha from Crops, 2.52 ha from Trees, 0.36 ha from Water). Why: nearest known feature is Balangir town (urban center), ~2.03 km away. District drivers: agricultural activity, urban expansion, transport. Likely cause: Urban or industrial expansion onto farmland (likely driven by Balangir town, ~2.03 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Balangir town (2.03 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 50.04,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 131,
+          "area_ha": 47.16
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 7,
+          "area_ha": 2.52
+        },
+        {
+          "from_label": "Water",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Balangir town (2.03 km)"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 32.04,
+      "nearby_features": [
+        {
+          "name": "Kantabanji railway station",
+          "type": "railway_station",
+          "distance_km": 3.34,
+          "source": "district_context"
+        },
+        {
+          "name": "Kantabanji",
+          "type": "urban_center",
+          "distance_km": 3.63,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (nearest known feature: Kantabanji railway station, ~3.34 km)",
+      "confidence": 0.75,
+      "narrative": "Hotspot 2 (20.4628\u00b0N, 82.9039\u00b0E), 2016\u21922024. New built-up area: 33.48 ha (32.04 ha from Rangeland, 1.44 ha from Crops). Why: nearest known feature is Kantabanji railway station (railway station), ~3.34 km away. District drivers: agricultural activity, urban expansion, transport. Likely cause: Urban/industrial expansion onto rangeland (nearest known feature: Kantabanji railway station, ~3.34 km). Demographic signal: mixed industrial + residential footprint [residential/transport drivers overlap (Kantabanji (3.63 km); Kantabanji railway station (3.34 km))]. Confidence: 0.75.",
+      "new_built_area_ha": 33.48,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 89,
+          "area_ha": 32.04
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 4,
+          "area_ha": 1.44
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "residential/transport drivers overlap (Kantabanji (3.63 km); Kantabanji railway station (3.34 km))"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 26.64,
+      "nearby_features": [],
+      "likely_cause": "Urban/industrial expansion onto rangeland",
+      "confidence": 0.7,
+      "narrative": "Hotspot 3 (20.7392\u00b0N, 83.5870\u00b0E), 2016\u21922024. New built-up area: 27.0 ha (26.64 ha from Rangeland, 0.36 ha from Water). Why: no specific nearby feature registered; district drivers are agricultural activity, urban expansion, transport. Likely cause: Urban/industrial expansion onto rangeland. Demographic signal: mixed industrial + residential footprint [no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion]. Confidence: 0.70.",
+      "new_built_area_ha": 27.0,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 74,
+          "area_ha": 26.64
+        },
+        {
+          "from_label": "Water",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 24.84,
+      "nearby_features": [
+        {
+          "name": "Kantabanji railway station",
+          "type": "railway_station",
+          "distance_km": 6.25,
+          "source": "district_context"
+        },
+        {
+          "name": "Kantabanji",
+          "type": "urban_center",
+          "distance_km": 6.57,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (nearest known feature: Kantabanji railway station, ~6.25 km)",
+      "confidence": 0.8,
+      "narrative": "Hotspot 4 (20.4634\u00b0N, 82.9326\u00b0E), 2016\u21922024. New built-up area: 25.56 ha (24.84 ha from Crops, 0.72 ha from Trees). Why: nearest known feature is Kantabanji railway station (railway station), ~6.25 km away. District drivers: agricultural activity, urban expansion, transport. Likely cause: Urban or industrial expansion onto farmland (nearest known feature: Kantabanji railway station, ~6.25 km). Demographic signal: mixed industrial + residential footprint [residential/transport drivers overlap (Kantabanji (6.57 km); Kantabanji railway station (6.25 km))]. Confidence: 0.80.",
+      "new_built_area_ha": 25.56,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 69,
+          "area_ha": 24.84
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "residential/transport drivers overlap (Kantabanji (6.57 km); Kantabanji railway station (6.25 km))"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 19.44,
+      "nearby_features": [
+        {
+          "name": "Balangir railway station",
+          "type": "railway_station",
+          "distance_km": 3.71,
+          "source": "district_context"
+        },
+        {
+          "name": "Balangir town",
+          "type": "urban_center",
+          "distance_km": 4.74,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (nearest known feature: Balangir railway station, ~3.71 km)",
+      "confidence": 0.75,
+      "narrative": "Hotspot 5 (20.7110\u00b0N, 83.5301\u00b0E), 2016\u21922024. New built-up area: 27.72 ha (19.44 ha from Rangeland, 8.28 ha from Crops). Why: nearest known feature is Balangir railway station (railway station), ~3.71 km away. District drivers: agricultural activity, urban expansion, transport. Likely cause: Urban/industrial expansion onto rangeland (nearest known feature: Balangir railway station, ~3.71 km). Demographic signal: mixed industrial + residential footprint [residential/transport drivers overlap (Balangir town (4.74 km); Balangir railway station (3.71 km))]. Confidence: 0.75.",
+      "new_built_area_ha": 27.72,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 54,
+          "area_ha": 19.44
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 23,
+          "area_ha": 8.28
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "residential/transport drivers overlap (Balangir town (4.74 km); Balangir railway station (3.71 km))"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 153288.71999999997
+}

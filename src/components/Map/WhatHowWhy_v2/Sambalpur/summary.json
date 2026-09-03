@@ -1,0 +1,284 @@
+{
+  "district": "Sambalpur",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 83.89673093726526,
+      "centroid_lat": 21.46751532813226,
+      "centroid_x": 178380.0,
+      "centroid_y": 2377080.0,
+      "score": 732.4409082375932,
+      "area_km2": 1.0,
+      "bounds": [
+        177880.0,
+        2376580.0,
+        178880.0,
+        2377580.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 84.0469315317751,
+      "centroid_lat": 21.668814440196712,
+      "centroid_x": 194380.0,
+      "centroid_y": 2399080.0,
+      "score": 707.2272984553128,
+      "area_km2": 1.0,
+      "bounds": [
+        193880.0,
+        2398580.0,
+        194880.0,
+        2399580.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 84.34747856836864,
+      "centroid_lat": 21.06901111306969,
+      "centroid_x": 224380.0,
+      "centroid_y": 2332080.0,
+      "score": 695.6617918261327,
+      "area_km2": 1.0,
+      "bounds": [
+        223880.0,
+        2331580.0,
+        224880.0,
+        2332580.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 84.0302076307561,
+      "centroid_lat": 21.54215047605083,
+      "centroid_x": 192380.0,
+      "centroid_y": 2385080.0,
+      "score": 652.0145251215436,
+      "area_km2": 1.0,
+      "bounds": [
+        191880.0,
+        2384580.0,
+        192880.0,
+        2385580.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 83.91714590824287,
+      "centroid_lat": 21.41374005318512,
+      "centroid_x": 180380.0,
+      "centroid_y": 2371080.0,
+      "score": 643.465191282332,
+      "area_km2": 1.0,
+      "bounds": [
+        179880.0,
+        2370580.0,
+        180880.0,
+        2371580.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 33.12,
+      "nearby_features": [
+        {
+          "name": "Burla",
+          "type": "urban_center",
+          "distance_km": 6.13,
+          "source": "district_context"
+        },
+        {
+          "name": "Hirakud town",
+          "type": "urban_center",
+          "distance_km": 7.18,
+          "source": "district_context"
+        },
+        {
+          "name": "OHPC Hirakud Power Station",
+          "type": "hydro_power_plant",
+          "distance_km": 7.48,
+          "source": "district_context"
+        },
+        {
+          "name": "Sambalpur city",
+          "type": "urban_center",
+          "distance_km": 8.1,
+          "source": "district_context"
+        },
+        {
+          "name": "Sambalpur railway junction",
+          "type": "railway_station",
+          "distance_km": 9.57,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Burla, ~6.13 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 1 (21.4675\u00b0N, 83.8967\u00b0E), 2016\u21922024. New built-up area: 35.28 ha (33.12 ha from Crops, 2.16 ha from Rangeland). Why: nearest known feature is Burla (urban center), ~6.13 km away. District drivers: coal mining, hydroelectric reservoir operations, aluminium smelting. Likely cause: Urban or industrial expansion onto farmland (likely driven by Burla, ~6.13 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Burla (6.13 km), Hirakud town (7.18 km), Sambalpur city (8.1 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 35.28,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 92,
+          "area_ha": 33.12
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 6,
+          "area_ha": 2.16
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Burla (6.13 km), Hirakud town (7.18 km), Sambalpur city (8.1 km)"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 22.32,
+      "nearby_features": [
+        {
+          "name": "Aditya Aluminium Lapanga",
+          "type": "aluminium_smelter",
+          "distance_km": 9.41,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Aditya Aluminium Lapanga, ~9.41 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 2 (21.6688\u00b0N, 84.0469\u00b0E), 2016\u21922024. New built-up area: 33.84 ha (22.32 ha from Crops, 9.36 ha from Rangeland, 2.16 ha from Flooded vegetation). Why: nearest known feature is Aditya Aluminium Lapanga (aluminium smelter), ~9.41 km away. District drivers: coal mining, hydroelectric reservoir operations, aluminium smelting. Likely cause: Urban or industrial expansion onto farmland (likely driven by Aditya Aluminium Lapanga, ~9.41 km away). Demographic signal: industrial build-out (plant expansion, workforce housing likely) [dominated by industrial driver(s): Aditya Aluminium Lapanga (9.41 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 33.84,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 62,
+          "area_ha": 22.32
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 26,
+          "area_ha": 9.36
+        },
+        {
+          "from_label": "Flooded vegetation",
+          "pixel_count": 6,
+          "area_ha": 2.16
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "dominated by industrial driver(s): Aditya Aluminium Lapanga (9.41 km)"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 24.48,
+      "nearby_features": [
+        {
+          "name": "Redhakhol",
+          "type": "urban_center",
+          "distance_km": 1.61,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Redhakhol, ~1.61 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 3 (21.0690\u00b0N, 84.3475\u00b0E), 2016\u21922024. New built-up area: 28.44 ha (24.48 ha from Crops, 2.52 ha from Rangeland, 1.44 ha from Trees). Why: nearest known feature is Redhakhol (urban center), ~1.61 km away. District drivers: coal mining, hydroelectric reservoir operations, aluminium smelting. Likely cause: Urban or industrial expansion onto farmland (likely driven by Redhakhol, ~1.61 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Redhakhol (1.61 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 28.44,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 68,
+          "area_ha": 24.48
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 7,
+          "area_ha": 2.52
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 4,
+          "area_ha": 1.44
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Redhakhol (1.61 km)"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 17.64,
+      "nearby_features": [
+        {
+          "name": "Aditya Aluminium Lapanga",
+          "type": "aluminium_smelter",
+          "distance_km": 9.67,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Aditya Aluminium Lapanga, ~9.67 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 4 (21.5422\u00b0N, 84.0302\u00b0E), 2016\u21922024. New built-up area: 17.64 ha (17.64 ha from Crops). Why: nearest known feature is Aditya Aluminium Lapanga (aluminium smelter), ~9.67 km away. District drivers: coal mining, hydroelectric reservoir operations, aluminium smelting. Likely cause: Urban or industrial expansion onto farmland (likely driven by Aditya Aluminium Lapanga, ~9.67 km away). Demographic signal: industrial build-out (plant expansion, workforce housing likely) [dominated by industrial driver(s): Aditya Aluminium Lapanga (9.67 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 17.64,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 49,
+          "area_ha": 17.64
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "dominated by industrial driver(s): Aditya Aluminium Lapanga (9.67 km)"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 27.72,
+      "nearby_features": [
+        {
+          "name": "Sambalpur railway junction",
+          "type": "railway_station",
+          "distance_km": 6.75,
+          "source": "district_context"
+        },
+        {
+          "name": "Sambalpur city",
+          "type": "urban_center",
+          "distance_km": 8.4,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (nearest known feature: Sambalpur railway junction, ~6.75 km)",
+      "confidence": 0.8,
+      "narrative": "Hotspot 5 (21.4137\u00b0N, 83.9171\u00b0E), 2016\u21922024. New built-up area: 27.72 ha (27.72 ha from Crops). Why: nearest known feature is Sambalpur railway junction (railway station), ~6.75 km away. District drivers: coal mining, hydroelectric reservoir operations, aluminium smelting. Likely cause: Urban or industrial expansion onto farmland (nearest known feature: Sambalpur railway junction, ~6.75 km). Demographic signal: mixed industrial + residential footprint [transport/residential drivers overlap (Sambalpur railway junction (6.75 km); Sambalpur city (8.4 km))]. Confidence: 0.80.",
+      "new_built_area_ha": 27.72,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 77,
+          "area_ha": 27.72
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "transport/residential drivers overlap (Sambalpur railway junction (6.75 km); Sambalpur city (8.4 km))"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 82874.16
+}

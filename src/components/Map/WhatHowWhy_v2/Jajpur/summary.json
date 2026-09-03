@@ -1,0 +1,237 @@
+{
+  "district": "Jajpur",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 85.8001204490739,
+      "centroid_lat": 21.034730414839153,
+      "centroid_x": 375320.0,
+      "centroid_y": 2326460.0,
+      "score": 1153.0280493609607,
+      "area_km2": 1.0,
+      "bounds": [
+        374820.0,
+        2325960.0,
+        375820.0,
+        2326960.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 85.97583417575535,
+      "centroid_lat": 20.665456241705225,
+      "centroid_x": 393320.0,
+      "centroid_y": 2285460.0,
+      "score": 579.3893148303032,
+      "area_km2": 1.0,
+      "bounds": [
+        392820.0,
+        2284960.0,
+        393820.0,
+        2285960.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 86.379025441092,
+      "centroid_lat": 20.667379096885174,
+      "centroid_x": 435320.0,
+      "centroid_y": 2285460.0,
+      "score": 557.9024678738788,
+      "area_km2": 1.0,
+      "bounds": [
+        434820.0,
+        2284960.0,
+        435820.0,
+        2285960.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 86.32061711308212,
+      "centroid_lat": 20.847867432877482,
+      "centroid_x": 429320.0,
+      "centroid_y": 2305460.0,
+      "score": 550.9342579431832,
+      "area_km2": 1.0,
+      "bounds": [
+        428820.0,
+        2304960.0,
+        429820.0,
+        2305960.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 86.5037721107495,
+      "centroid_lat": 20.68585457611877,
+      "centroid_x": 448320.0,
+      "centroid_y": 2287460.0,
+      "score": 548.4068136624992,
+      "area_km2": 1.0,
+      "bounds": [
+        447820.0,
+        2286960.0,
+        448820.0,
+        2287960.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Trees",
+      "dominant_to": "Rangeland",
+      "transition_area_ha": 30.6,
+      "nearby_features": [
+        {
+          "name": "Sukinda valley",
+          "type": "urban_center",
+          "distance_km": 3.54,
+          "source": "district_context"
+        },
+        {
+          "name": "Sukinda chromite mines",
+          "type": "chromite_mine",
+          "distance_km": 5.2,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland",
+      "confidence": 0.65,
+      "narrative": "Hotspot 1 (21.0347\u00b0N, 85.8001\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Rangeland (30.6 ha). Why: nearest known feature is Sukinda valley (urban center), ~3.54 km away. District drivers: chromite mining, steel production, industrial. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.65.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "unchanged",
+      "dominant_to": "unchanged",
+      "transition_area_ha": 0.0,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged",
+      "confidence": 0.3,
+      "narrative": "Hotspot 2 (20.6655\u00b0N, 85.9758\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: unchanged \u2192 unchanged (0.0 ha). Why: no specific nearby feature registered; district drivers are chromite mining, steel production, industrial. Likely cause: Spectral / vegetation change without new Built footprint \u2014 unchanged \u2192 unchanged. Demographic signal: unclassified \u2014 needs ground-truth [no Built-class conversion inside hotspot; spectral change without a clear land-cover flip]. Confidence: 0.30.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "unclassified",
+      "settlement_rationale": "no Built-class conversion inside hotspot; spectral change without a clear land-cover flip"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 16.56,
+      "nearby_features": [],
+      "likely_cause": "Forest cleared for urban or industrial development",
+      "confidence": 0.75,
+      "narrative": "Hotspot 3 (20.6674\u00b0N, 86.3790\u00b0E), 2016\u21922024. New built-up area: 24.48 ha (16.56 ha from Trees, 6.84 ha from Crops, 1.08 ha from Rangeland). Why: no specific nearby feature registered; district drivers are chromite mining, steel production, industrial. Likely cause: Forest cleared for urban or industrial development. Demographic signal: industrial build-out (plant expansion, workforce housing likely) [no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance]. Confidence: 0.75.",
+      "new_built_area_ha": 24.48,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 46,
+          "area_ha": 16.56
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 19,
+          "area_ha": 6.84
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 3,
+          "area_ha": 1.08
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 11.52,
+      "nearby_features": [
+        {
+          "name": "Jajpur town",
+          "type": "urban_center",
+          "distance_km": 1.0,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Jajpur town, ~1.0 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 4 (20.8479\u00b0N, 86.3206\u00b0E), 2016\u21922024. New built-up area: 17.28 ha (11.52 ha from Trees, 5.04 ha from Rangeland, 0.72 ha from Crops). Why: nearest known feature is Jajpur town (urban center), ~1.0 km away. District drivers: chromite mining, steel production, industrial. Likely cause: Forest cleared for urban or industrial development (likely driven by Jajpur town, ~1.0 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Jajpur town (1.0 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 17.28,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 32,
+          "area_ha": 11.52
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 14,
+          "area_ha": 5.04
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Jajpur town (1.0 km)"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 16.2,
+      "nearby_features": [],
+      "likely_cause": "Forest cleared for urban or industrial development",
+      "confidence": 0.75,
+      "narrative": "Hotspot 5 (20.6859\u00b0N, 86.5038\u00b0E), 2016\u21922024. New built-up area: 31.68 ha (16.2 ha from Trees, 14.4 ha from Crops, 0.72 ha from Rangeland). Why: no specific nearby feature registered; district drivers are chromite mining, steel production, industrial. Likely cause: Forest cleared for urban or industrial development. Demographic signal: industrial build-out (plant expansion, workforce housing likely) [no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance]. Confidence: 0.75.",
+      "new_built_area_ha": 31.68,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 45,
+          "area_ha": 16.2
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 40,
+          "area_ha": 14.4
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        },
+        {
+          "from_label": "Water",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 40026.600000000006
+}

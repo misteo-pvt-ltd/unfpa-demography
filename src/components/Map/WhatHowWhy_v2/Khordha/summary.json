@@ -1,0 +1,288 @@
+{
+  "district": "Khordha",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 85.73349009473372,
+      "centroid_lat": 20.228020321678287,
+      "centroid_x": 367700.0,
+      "centroid_y": 2237220.0,
+      "score": 902.5271568056196,
+      "area_km2": 1.0,
+      "bounds": [
+        367200.0,
+        2236720.0,
+        368200.0,
+        2237720.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 85.7326828816899,
+      "centroid_lat": 20.32739633813963,
+      "centroid_x": 367700.0,
+      "centroid_y": 2248220.0,
+      "score": 779.7495115576312,
+      "area_km2": 1.0,
+      "bounds": [
+        367200.0,
+        2247720.0,
+        368200.0,
+        2248720.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 85.81006143267764,
+      "centroid_lat": 20.228556102355967,
+      "centroid_x": 375700.0,
+      "centroid_y": 2237220.0,
+      "score": 658.6235795026878,
+      "area_km2": 1.0,
+      "bounds": [
+        375200.0,
+        2236720.0,
+        376200.0,
+        2237720.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 85.96339068085666,
+      "centroid_lat": 20.20242256033456,
+      "centroid_x": 391700.0,
+      "centroid_y": 2234220.0,
+      "score": 636.6964527890086,
+      "area_km2": 1.0,
+      "bounds": [
+        391200.0,
+        2233720.0,
+        392200.0,
+        2234720.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 85.10590261128029,
+      "centroid_lat": 19.888155562605366,
+      "centroid_x": 301700.0,
+      "centroid_y": 2200220.0,
+      "score": 626.9729942679405,
+      "area_km2": 1.0,
+      "bounds": [
+        301200.0,
+        2199720.0,
+        302200.0,
+        2200720.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 58.68,
+      "nearby_features": [
+        {
+          "name": "Tamando",
+          "type": "urban_center",
+          "distance_km": 5.91,
+          "source": "district_context"
+        },
+        {
+          "name": "Jatni",
+          "type": "urban_center",
+          "distance_km": 7.34,
+          "source": "district_context"
+        },
+        {
+          "name": "Biju Patnaik International Airport",
+          "type": "airport",
+          "distance_km": 9.13,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Tamando, ~5.91 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 1 (20.2280\u00b0N, 85.7335\u00b0E), 2016\u21922024. New built-up area: 72.0 ha (58.68 ha from Crops, 13.32 ha from Rangeland). Why: nearest known feature is Tamando (urban center), ~5.91 km away. District drivers: urban expansion, IT / service-sector urbanisation, industrial. Likely cause: Urban or industrial expansion onto farmland (likely driven by Tamando, ~5.91 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Tamando (5.91 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 72.0,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 163,
+          "area_ha": 58.68
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 37,
+          "area_ha": 13.32
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Tamando (5.91 km)"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 52.2,
+      "nearby_features": [
+        {
+          "name": "Tamando",
+          "type": "urban_center",
+          "distance_km": 6.49,
+          "source": "district_context"
+        },
+        {
+          "name": "Chandaka Industrial Estate",
+          "type": "industrial",
+          "distance_km": 7.03,
+          "source": "district_context"
+        },
+        {
+          "name": "Infocity IT hub",
+          "type": "industrial",
+          "distance_km": 9.44,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (likely driven by Tamando, ~6.49 km away)",
+      "confidence": 0.8999999999999999,
+      "narrative": "Hotspot 2 (20.3274\u00b0N, 85.7327\u00b0E), 2016\u21922024. New built-up area: 56.88 ha (52.2 ha from Rangeland, 3.96 ha from Trees, 0.72 ha from Crops). Why: nearest known feature is Tamando (urban center), ~6.49 km away. District drivers: urban expansion, IT / service-sector urbanisation, industrial. Likely cause: Urban/industrial expansion onto rangeland (likely driven by Tamando, ~6.49 km away). Demographic signal: mixed industrial + residential footprint [residential/industrial drivers overlap (Tamando (6.49 km); Chandaka Industrial Estate (7.03 km))]. Confidence: 0.90.",
+      "new_built_area_ha": 56.88,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 145,
+          "area_ha": 52.2
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 11,
+          "area_ha": 3.96
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "residential/industrial drivers overlap (Tamando (6.49 km); Chandaka Industrial Estate (7.03 km))"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 42.12,
+      "nearby_features": [
+        {
+          "name": "Biju Patnaik International Airport",
+          "type": "airport",
+          "distance_km": 2.52,
+          "source": "district_context"
+        },
+        {
+          "name": "Bhubaneswar railway station",
+          "type": "railway_station",
+          "distance_km": 5.12,
+          "source": "district_context"
+        },
+        {
+          "name": "Tamando",
+          "type": "urban_center",
+          "distance_km": 7.34,
+          "source": "district_context"
+        },
+        {
+          "name": "Bhubaneswar",
+          "type": "urban_center",
+          "distance_km": 7.66,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Biju Patnaik International Airport, ~2.52 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 3 (20.2286\u00b0N, 85.8101\u00b0E), 2016\u21922024. New built-up area: 42.48 ha (42.12 ha from Crops, 0.36 ha from Rangeland). Why: nearest known feature is Biju Patnaik International Airport (airport), ~2.52 km away. District drivers: urban expansion, IT / service-sector urbanisation, industrial. Likely cause: Urban or industrial expansion onto farmland (likely driven by Biju Patnaik International Airport, ~2.52 km away). Demographic signal: industrial build-out (plant expansion, workforce housing likely) [dominated by industrial driver(s): Biju Patnaik International Airport (2.52 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 42.48,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 117,
+          "area_ha": 42.12
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "dominated by industrial driver(s): Biju Patnaik International Airport (2.52 km)"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 28.08,
+      "nearby_features": [
+        {
+          "name": "Khordha NH-16 SE corridor",
+          "type": "industrial",
+          "distance_km": 0.74,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Khordha NH-16 SE corridor, ~0.74 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 4 (20.2024\u00b0N, 85.9634\u00b0E), 2016\u21922024. New built-up area: 35.64 ha (28.08 ha from Trees, 7.2 ha from Crops, 0.36 ha from Rangeland). Why: nearest known feature is Khordha NH-16 SE corridor (industrial), ~0.74 km away. District drivers: urban expansion, IT / service-sector urbanisation, industrial. Likely cause: Forest cleared for urban or industrial development (likely driven by Khordha NH-16 SE corridor, ~0.74 km away). Demographic signal: industrial build-out (plant expansion, workforce housing likely) [dominated by industrial driver(s): Khordha NH-16 SE corridor (0.74 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 35.64,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 78,
+          "area_ha": 28.08
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 20,
+          "area_ha": 7.2
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "dominated by industrial driver(s): Khordha NH-16 SE corridor (0.74 km)"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Trees",
+      "dominant_to": "Rangeland",
+      "transition_area_ha": 24.48,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland",
+      "confidence": 0.6,
+      "narrative": "Hotspot 5 (19.8882\u00b0N, 85.1059\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Rangeland (24.5 ha). Why: no specific nearby feature registered; district drivers are urban expansion, IT / service-sector urbanisation, industrial. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.60.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 38181.23999999999
+}

@@ -1,0 +1,204 @@
+{
+  "district": "Boudh",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 83.96787326682683,
+      "centroid_lat": 20.710627719503304,
+      "centroid_x": 184160.0,
+      "centroid_y": 2293080.0,
+      "score": 641.0452371658757,
+      "area_km2": 1.0,
+      "bounds": [
+        183660.0,
+        2292580.0,
+        184660.0,
+        2293580.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 84.081227735622,
+      "centroid_lat": 20.802859032224198,
+      "centroid_x": 196160.0,
+      "centroid_y": 2303080.0,
+      "score": 591.7620341535658,
+      "area_km2": 1.0,
+      "bounds": [
+        195660.0,
+        2302580.0,
+        196660.0,
+        2303580.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 84.12132646530543,
+      "centroid_lat": 20.71326402788482,
+      "centroid_x": 200160.0,
+      "centroid_y": 2293080.0,
+      "score": 529.9678286202252,
+      "area_km2": 1.0,
+      "bounds": [
+        199660.0,
+        2292580.0,
+        200660.0,
+        2293580.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 84.04529660602584,
+      "centroid_lat": 20.67586735334682,
+      "centroid_x": 192160.0,
+      "centroid_y": 2289080.0,
+      "score": 513.4808020126075,
+      "area_km2": 1.0,
+      "bounds": [
+        191660.0,
+        2288580.0,
+        192660.0,
+        2289580.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 84.06325632528183,
+      "centroid_lat": 20.73936343817435,
+      "centroid_x": 194160.0,
+      "centroid_y": 2296080.0,
+      "score": 492.04407219588757,
+      "area_km2": 1.0,
+      "bounds": [
+        193660.0,
+        2295580.0,
+        194660.0,
+        2296580.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 24.12,
+      "nearby_features": [],
+      "likely_cause": "Urban/industrial expansion onto rangeland",
+      "confidence": 0.7,
+      "narrative": "Hotspot 1 (20.7106\u00b0N, 83.9679\u00b0E), 2016\u21922024. New built-up area: 25.2 ha (24.12 ha from Rangeland, 1.08 ha from Crops). Why: no specific nearby feature registered; district drivers are agricultural activity, forest, urban expansion. Likely cause: Urban/industrial expansion onto rangeland. Demographic signal: mixed industrial + residential footprint [no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion]. Confidence: 0.70.",
+      "new_built_area_ha": 25.2,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 67,
+          "area_ha": 24.12
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 3,
+          "area_ha": 1.08
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 15.84,
+      "nearby_features": [],
+      "likely_cause": "Urban or industrial expansion onto farmland",
+      "confidence": 0.75,
+      "narrative": "Hotspot 2 (20.8029\u00b0N, 84.0812\u00b0E), 2016\u21922024. New built-up area: 15.84 ha (15.84 ha from Crops). Why: no specific nearby feature registered; district drivers are agricultural activity, forest, urban expansion. Likely cause: Urban or industrial expansion onto farmland. Demographic signal: settlement / peri-urban growth (housing, population inflow) [no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland]. Confidence: 0.75.",
+      "new_built_area_ha": 15.84,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 44,
+          "area_ha": 15.84
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 18.72,
+      "nearby_features": [],
+      "likely_cause": "Urban/industrial expansion onto rangeland",
+      "confidence": 0.7,
+      "narrative": "Hotspot 3 (20.7133\u00b0N, 84.1213\u00b0E), 2016\u21922024. New built-up area: 18.72 ha (18.72 ha from Rangeland). Why: no specific nearby feature registered; district drivers are agricultural activity, forest, urban expansion. Likely cause: Urban/industrial expansion onto rangeland. Demographic signal: mixed industrial + residential footprint [no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion]. Confidence: 0.70.",
+      "new_built_area_ha": 18.72,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 52,
+          "area_ha": 18.72
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 13.32,
+      "nearby_features": [],
+      "likely_cause": "Urban/industrial expansion onto rangeland",
+      "confidence": 0.7,
+      "narrative": "Hotspot 4 (20.6759\u00b0N, 84.0453\u00b0E), 2016\u21922024. New built-up area: 13.32 ha (13.32 ha from Rangeland). Why: no specific nearby feature registered; district drivers are agricultural activity, forest, urban expansion. Likely cause: Urban/industrial expansion onto rangeland. Demographic signal: mixed industrial + residential footprint [no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion]. Confidence: 0.70.",
+      "new_built_area_ha": 13.32,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 37,
+          "area_ha": 13.32
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 7.56,
+      "nearby_features": [],
+      "likely_cause": "Urban/industrial expansion onto rangeland",
+      "confidence": 0.7,
+      "narrative": "Hotspot 5 (20.7394\u00b0N, 84.0633\u00b0E), 2016\u21922024. New built-up area: 9.72 ha (7.56 ha from Rangeland, 2.16 ha from Crops). Why: no specific nearby feature registered; district drivers are agricultural activity, forest, urban expansion. Likely cause: Urban/industrial expansion onto rangeland. Demographic signal: mixed industrial + residential footprint [no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion]. Confidence: 0.70.",
+      "new_built_area_ha": 9.72,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 21,
+          "area_ha": 7.56
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 6,
+          "area_ha": 2.16
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 43443.0
+}

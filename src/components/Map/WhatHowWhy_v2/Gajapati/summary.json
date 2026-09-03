@@ -1,0 +1,213 @@
+{
+  "district": "Gajapati",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 84.13795941639793,
+      "centroid_lat": 18.80426324928301,
+      "centroid_x": 198320.0,
+      "centroid_y": 2081600.0,
+      "score": 515.1272598262876,
+      "area_km2": 1.0,
+      "bounds": [
+        197820.0,
+        2081100.0,
+        198820.0,
+        2082100.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 83.98217400697807,
+      "centroid_lat": 19.551099692687362,
+      "centroid_x": 183320.0,
+      "centroid_y": 2164600.0,
+      "score": 512.111504688859,
+      "area_km2": 1.0,
+      "bounds": [
+        182820.0,
+        2164100.0,
+        183820.0,
+        2165100.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 84.08124718702821,
+      "centroid_lat": 18.794355738082544,
+      "centroid_x": 192320.0,
+      "centroid_y": 2080600.0,
+      "score": 510.32675842626486,
+      "area_km2": 1.0,
+      "bounds": [
+        191820.0,
+        2080100.0,
+        192820.0,
+        2081100.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 84.3298124099236,
+      "centroid_lat": 19.258602767121825,
+      "centroid_x": 219320.0,
+      "centroid_y": 2131600.0,
+      "score": 421.1629424095154,
+      "area_km2": 1.0,
+      "bounds": [
+        218820.0,
+        2131100.0,
+        219820.0,
+        2132100.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 84.02008777622478,
+      "centroid_lat": 19.560757412845827,
+      "centroid_x": 187320.0,
+      "centroid_y": 2165600.0,
+      "score": 417.4664519429207,
+      "area_km2": 1.0,
+      "bounds": [
+        186820.0,
+        2165100.0,
+        187820.0,
+        2166100.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 10.08,
+      "nearby_features": [
+        {
+          "name": "Paralakhemundi",
+          "type": "urban_center",
+          "distance_km": 5.72,
+          "source": "district_context"
+        },
+        {
+          "name": "Paralakhemundi railway station",
+          "type": "railway_station",
+          "distance_km": 6.67,
+          "source": "district_context"
+        },
+        {
+          "name": "Kashinagara",
+          "type": "urban_center",
+          "distance_km": 8.54,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Paralakhemundi, ~5.72 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 1 (18.8043\u00b0N, 84.1380\u00b0E), 2016\u21922024. New built-up area: 19.44 ha (10.08 ha from Crops, 9.36 ha from Trees). Why: nearest known feature is Paralakhemundi (urban center), ~5.72 km away. District drivers: forest, shifting / tribal agriculture, urban expansion. Likely cause: Urban or industrial expansion onto farmland (likely driven by Paralakhemundi, ~5.72 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Paralakhemundi (5.72 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 19.44,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 28,
+          "area_ha": 10.08
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 26,
+          "area_ha": 9.36
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Paralakhemundi (5.72 km)"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Trees",
+      "dominant_to": "Rangeland",
+      "transition_area_ha": 17.28,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland",
+      "confidence": 0.6,
+      "narrative": "Hotspot 2 (19.5511\u00b0N, 83.9822\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Rangeland (17.3 ha). Why: no specific nearby feature registered; district drivers are forest, shifting / tribal agriculture, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.60.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 21.6,
+      "nearby_features": [
+        {
+          "name": "Paralakhemundi railway station",
+          "type": "railway_station",
+          "distance_km": 1.6,
+          "source": "district_context"
+        },
+        {
+          "name": "Paralakhemundi",
+          "type": "urban_center",
+          "distance_km": 1.84,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (nearest known feature: Paralakhemundi railway station, ~1.6 km)",
+      "confidence": 0.8,
+      "narrative": "Hotspot 3 (18.7944\u00b0N, 84.0812\u00b0E), 2016\u21922024. New built-up area: 21.6 ha (21.6 ha from Crops). Why: nearest known feature is Paralakhemundi railway station (railway station), ~1.6 km away. District drivers: forest, shifting / tribal agriculture, urban expansion. Likely cause: Urban or industrial expansion onto farmland (nearest known feature: Paralakhemundi railway station, ~1.6 km). Demographic signal: mixed industrial + residential footprint [residential/transport drivers overlap (Paralakhemundi (1.84 km); Paralakhemundi railway station (1.6 km))]. Confidence: 0.80.",
+      "new_built_area_ha": 21.6,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 60,
+          "area_ha": 21.6
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "residential/transport drivers overlap (Paralakhemundi (1.84 km); Paralakhemundi railway station (1.6 km))"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Trees",
+      "dominant_to": "Rangeland",
+      "transition_area_ha": 10.8,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland",
+      "confidence": 0.6,
+      "narrative": "Hotspot 4 (19.2586\u00b0N, 84.3298\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Rangeland (10.8 ha). Why: no specific nearby feature registered; district drivers are forest, shifting / tribal agriculture, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.60.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Trees",
+      "dominant_to": "Rangeland",
+      "transition_area_ha": 14.04,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland",
+      "confidence": 0.6,
+      "narrative": "Hotspot 5 (19.5608\u00b0N, 84.0201\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Rangeland (14.0 ha). Why: no specific nearby feature registered; district drivers are forest, shifting / tribal agriculture, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.60.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 73431.0
+}

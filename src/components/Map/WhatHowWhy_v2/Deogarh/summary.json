@@ -1,0 +1,244 @@
+{
+  "district": "Deogarh",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 84.75650777185918,
+      "centroid_lat": 21.538883522992517,
+      "centroid_x": 267640.0,
+      "centroid_y": 2383460.0,
+      "score": 801.9256380274892,
+      "area_km2": 1.0,
+      "bounds": [
+        267140.0,
+        2382960.0,
+        268140.0,
+        2383960.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 84.95764520540388,
+      "centroid_lat": 21.649838400507445,
+      "centroid_x": 288640.0,
+      "centroid_y": 2395460.0,
+      "score": 409.6078452132642,
+      "area_km2": 1.0,
+      "bounds": [
+        288140.0,
+        2394960.0,
+        289140.0,
+        2395960.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 85.10487532223077,
+      "centroid_lat": 21.470955706234786,
+      "centroid_x": 303640.0,
+      "centroid_y": 2375460.0,
+      "score": 354.69553613942116,
+      "area_km2": 1.0,
+      "bounds": [
+        303140.0,
+        2374960.0,
+        304140.0,
+        2375960.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 84.85327305606307,
+      "centroid_lat": 21.522096749654445,
+      "centroid_x": 277640.0,
+      "centroid_y": 2381460.0,
+      "score": 343.1597743136808,
+      "area_km2": 1.0,
+      "bounds": [
+        277140.0,
+        2380960.0,
+        278140.0,
+        2381960.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 84.48681407324172,
+      "centroid_lat": 21.507950147501205,
+      "centroid_x": 239640.0,
+      "centroid_y": 2380460.0,
+      "score": 341.69250703789294,
+      "area_km2": 1.0,
+      "bounds": [
+        239140.0,
+        2379960.0,
+        240140.0,
+        2380960.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 25.92,
+      "nearby_features": [
+        {
+          "name": "Deogarh town",
+          "type": "urban_center",
+          "distance_km": 4.31,
+          "source": "district_context"
+        },
+        {
+          "name": "Barkote",
+          "type": "urban_center",
+          "distance_km": 9.98,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Deogarh town, ~4.31 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 1 (21.5389\u00b0N, 84.7565\u00b0E), 2016\u21922024. New built-up area: 39.24 ha (25.92 ha from Crops, 12.96 ha from Rangeland, 0.36 ha from Trees). Why: nearest known feature is Deogarh town (urban center), ~4.31 km away. District drivers: forest, agricultural activity, urban expansion. Likely cause: Urban or industrial expansion onto farmland (likely driven by Deogarh town, ~4.31 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Deogarh town (4.31 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 39.24,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 72,
+          "area_ha": 25.92
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 36,
+          "area_ha": 12.96
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Deogarh town (4.31 km)"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 17.28,
+      "nearby_features": [],
+      "likely_cause": "Urban or industrial expansion onto farmland",
+      "confidence": 0.75,
+      "narrative": "Hotspot 2 (21.6498\u00b0N, 84.9576\u00b0E), 2016\u21922024. New built-up area: 18.72 ha (17.28 ha from Crops, 1.44 ha from Trees). Why: no specific nearby feature registered; district drivers are forest, agricultural activity, urban expansion. Likely cause: Urban or industrial expansion onto farmland. Demographic signal: settlement / peri-urban growth (housing, population inflow) [no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland]. Confidence: 0.75.",
+      "new_built_area_ha": 18.72,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 48,
+          "area_ha": 17.28
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 4,
+          "area_ha": 1.44
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 13.32,
+      "nearby_features": [],
+      "likely_cause": "Urban or industrial expansion onto farmland",
+      "confidence": 0.75,
+      "narrative": "Hotspot 3 (21.4710\u00b0N, 85.1049\u00b0E), 2016\u21922024. New built-up area: 18.0 ha (13.32 ha from Crops, 4.32 ha from Rangeland, 0.36 ha from Trees). Why: no specific nearby feature registered; district drivers are forest, agricultural activity, urban expansion. Likely cause: Urban or industrial expansion onto farmland. Demographic signal: settlement / peri-urban growth (housing, population inflow) [no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland]. Confidence: 0.75.",
+      "new_built_area_ha": 18.0,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 37,
+          "area_ha": 13.32
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 12,
+          "area_ha": 4.32
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 16.2,
+      "nearby_features": [],
+      "likely_cause": "Urban or industrial expansion onto farmland",
+      "confidence": 0.75,
+      "narrative": "Hotspot 4 (21.5221\u00b0N, 84.8533\u00b0E), 2016\u21922024. New built-up area: 16.2 ha (16.2 ha from Crops). Why: no specific nearby feature registered; district drivers are forest, agricultural activity, urban expansion. Likely cause: Urban or industrial expansion onto farmland. Demographic signal: settlement / peri-urban growth (housing, population inflow) [no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland]. Confidence: 0.75.",
+      "new_built_area_ha": 16.2,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 45,
+          "area_ha": 16.2
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 10.8,
+      "nearby_features": [
+        {
+          "name": "Reamal",
+          "type": "urban_center",
+          "distance_km": 9.73,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (likely driven by Reamal, ~9.73 km away)",
+      "confidence": 0.8999999999999999,
+      "narrative": "Hotspot 5 (21.5080\u00b0N, 84.4868\u00b0E), 2016\u21922024. New built-up area: 11.16 ha (10.8 ha from Rangeland, 0.36 ha from Crops). Why: nearest known feature is Reamal (urban center), ~9.73 km away. District drivers: forest, agricultural activity, urban expansion. Likely cause: Urban/industrial expansion onto rangeland (likely driven by Reamal, ~9.73 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Reamal (9.73 km)]. Confidence: 0.90.",
+      "new_built_area_ha": 11.16,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 30,
+          "area_ha": 10.8
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Reamal (9.73 km)"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 44217.36000000001
+}

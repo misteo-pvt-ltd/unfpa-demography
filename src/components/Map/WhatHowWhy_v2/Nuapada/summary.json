@@ -1,0 +1,214 @@
+{
+  "district": "Nuapada",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 82.69541477631715,
+      "centroid_lat": 20.10100576264043,
+      "centroid_x": 49680.0,
+      "centroid_y": 2228480.0,
+      "score": 868.533810060937,
+      "area_km2": 1.0,
+      "bounds": [
+        49180.0,
+        2227980.0,
+        50180.0,
+        2228980.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 82.65650110572857,
+      "centroid_lat": 20.469729269298643,
+      "centroid_x": 46680.0,
+      "centroid_y": 2269480.0,
+      "score": 423.97765919647645,
+      "area_km2": 1.0,
+      "bounds": [
+        46180.0,
+        2268980.0,
+        47180.0,
+        2269980.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 82.75656604406157,
+      "centroid_lat": 20.30989196237429,
+      "centroid_x": 56680.0,
+      "centroid_y": 2251480.0,
+      "score": 423.22638459829614,
+      "area_km2": 1.0,
+      "bounds": [
+        56180.0,
+        2250980.0,
+        57180.0,
+        2251980.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 82.55134027762318,
+      "centroid_lat": 20.46706494932172,
+      "centroid_x": 35680.0,
+      "centroid_y": 2269480.0,
+      "score": 419.6383819580078,
+      "area_km2": 1.0,
+      "bounds": [
+        35180.0,
+        2268980.0,
+        36180.0,
+        2269980.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 82.3560988654655,
+      "centroid_lat": 20.597153955901625,
+      "centroid_x": 15680.0,
+      "centroid_y": 2284480.0,
+      "score": 412.83217999339104,
+      "area_km2": 1.0,
+      "bounds": [
+        15180.0,
+        2283980.0,
+        16180.0,
+        2284980.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 29.88,
+      "nearby_features": [],
+      "likely_cause": "Urban or industrial expansion onto farmland",
+      "confidence": 0.75,
+      "narrative": "Hotspot 1 (20.1010\u00b0N, 82.6954\u00b0E), 2016\u21922024. New built-up area: 48.6 ha (29.88 ha from Crops, 10.8 ha from Trees, 7.92 ha from Rangeland). Why: no specific nearby feature registered; district drivers are agricultural activity, forest, urban expansion. Likely cause: Urban or industrial expansion onto farmland. Demographic signal: settlement / peri-urban growth (housing, population inflow) [no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland]. Confidence: 0.75.",
+      "new_built_area_ha": 48.6,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 83,
+          "area_ha": 29.88
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 30,
+          "area_ha": 10.8
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 22,
+          "area_ha": 7.92
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 24.12,
+      "nearby_features": [],
+      "likely_cause": "Urban or industrial expansion onto farmland",
+      "confidence": 0.75,
+      "narrative": "Hotspot 2 (20.4697\u00b0N, 82.6565\u00b0E), 2016\u21922024. New built-up area: 24.84 ha (24.12 ha from Crops, 0.72 ha from Trees). Why: no specific nearby feature registered; district drivers are agricultural activity, forest, urban expansion. Likely cause: Urban or industrial expansion onto farmland. Demographic signal: settlement / peri-urban growth (housing, population inflow) [no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland]. Confidence: 0.75.",
+      "new_built_area_ha": 24.84,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 67,
+          "area_ha": 24.12
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 11.52,
+      "nearby_features": [
+        {
+          "name": "Khariar",
+          "type": "urban_center",
+          "distance_km": 2.32,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Khariar, ~2.32 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 3 (20.3099\u00b0N, 82.7566\u00b0E), 2016\u21922024. New built-up area: 21.24 ha (11.52 ha from Crops, 5.76 ha from Rangeland, 3.96 ha from Trees). Why: nearest known feature is Khariar (urban center), ~2.32 km away. District drivers: agricultural activity, forest, urban expansion. Likely cause: Urban or industrial expansion onto farmland (likely driven by Khariar, ~2.32 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Khariar (2.32 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 21.24,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 32,
+          "area_ha": 11.52
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 16,
+          "area_ha": 5.76
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 11,
+          "area_ha": 3.96
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Khariar (2.32 km)"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Trees",
+      "dominant_to": "Rangeland",
+      "transition_area_ha": 1.44,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland",
+      "confidence": 0.6,
+      "narrative": "Hotspot 4 (20.4671\u00b0N, 82.5513\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Rangeland (1.4 ha). Why: no specific nearby feature registered; district drivers are agricultural activity, forest, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.60.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Trees",
+      "dominant_to": "Rangeland",
+      "transition_area_ha": 12.96,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland",
+      "confidence": 0.6,
+      "narrative": "Hotspot 5 (20.5972\u00b0N, 82.3561\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Rangeland (13.0 ha). Why: no specific nearby feature registered; district drivers are agricultural activity, forest, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Rangeland. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.60.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Trees \u2192 Rangeland indicates canopy loss / mining-pit advance, not settlement"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 95785.20000000003
+}

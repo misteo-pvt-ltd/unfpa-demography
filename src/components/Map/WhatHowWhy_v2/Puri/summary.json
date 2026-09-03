@@ -1,0 +1,262 @@
+{
+  "district": "Puri",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 85.8882770029234,
+      "centroid_lat": 19.942288729716125,
+      "centroid_x": 383660.0,
+      "centroid_y": 2205480.0,
+      "score": 672.1718434877694,
+      "area_km2": 1.0,
+      "bounds": [
+        383160.0,
+        2204980.0,
+        384160.0,
+        2205980.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 85.65095489357478,
+      "centroid_lat": 19.75994680527381,
+      "centroid_x": 358660.0,
+      "centroid_y": 2185480.0,
+      "score": 637.4612957546487,
+      "area_km2": 1.0,
+      "bounds": [
+        358160.0,
+        2184980.0,
+        359160.0,
+        2185980.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 85.78421398711637,
+      "centroid_lat": 19.806078297165545,
+      "centroid_x": 372660.0,
+      "centroid_y": 2190480.0,
+      "score": 618.4031180238817,
+      "area_km2": 1.0,
+      "bounds": [
+        372160.0,
+        2189980.0,
+        373160.0,
+        2190980.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 85.85804665567642,
+      "centroid_lat": 20.15894305749772,
+      "centroid_x": 380660.0,
+      "centroid_y": 2229480.0,
+      "score": 583.6161616388708,
+      "area_km2": 1.0,
+      "bounds": [
+        380160.0,
+        2228980.0,
+        381160.0,
+        2229980.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 85.82099370228975,
+      "centroid_lat": 19.996066323179196,
+      "centroid_x": 376660.0,
+      "centroid_y": 2211480.0,
+      "score": 571.5297810090706,
+      "area_km2": 1.0,
+      "bounds": [
+        376160.0,
+        2210980.0,
+        377160.0,
+        2211980.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 38.52,
+      "nearby_features": [
+        {
+          "name": "Satyabadi",
+          "type": "urban_center",
+          "distance_km": 5.34,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Satyabadi, ~5.34 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 1 (19.9423\u00b0N, 85.8883\u00b0E), 2016\u21922024. New built-up area: 39.96 ha (38.52 ha from Trees, 1.08 ha from Crops, 0.36 ha from Water). Why: nearest known feature is Satyabadi (urban center), ~5.34 km away. District drivers: tourism-driven development, urban expansion, agricultural activity. Likely cause: Forest cleared for urban or industrial development (likely driven by Satyabadi, ~5.34 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Satyabadi (5.34 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 39.96,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 107,
+          "area_ha": 38.52
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 3,
+          "area_ha": 1.08
+        },
+        {
+          "from_label": "Water",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Satyabadi (5.34 km)"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 40.68,
+      "nearby_features": [],
+      "likely_cause": "Forest cleared for urban or industrial development",
+      "confidence": 0.75,
+      "narrative": "Hotspot 2 (19.7599\u00b0N, 85.6510\u00b0E), 2016\u21922024. New built-up area: 41.04 ha (40.68 ha from Trees, 0.36 ha from Crops). Why: no specific nearby feature registered; district drivers are tourism-driven development, urban expansion, agricultural activity. Likely cause: Forest cleared for urban or industrial development. Demographic signal: industrial build-out (plant expansion, workforce housing likely) [no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance]. Confidence: 0.75.",
+      "new_built_area_ha": 41.04,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 113,
+          "area_ha": 40.68
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 26.28,
+      "nearby_features": [
+        {
+          "name": "Brahmagiri",
+          "type": "urban_center",
+          "distance_km": 3.82,
+          "source": "district_context"
+        },
+        {
+          "name": "Puri railway station",
+          "type": "railway_station",
+          "distance_km": 4.81,
+          "source": "district_context"
+        },
+        {
+          "name": "Puri town",
+          "type": "urban_center",
+          "distance_km": 5.0,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Brahmagiri, ~3.82 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 3 (19.8061\u00b0N, 85.7842\u00b0E), 2016\u21922024. New built-up area: 51.48 ha (26.28 ha from Trees, 24.84 ha from Crops, 0.36 ha from Rangeland). Why: nearest known feature is Brahmagiri (urban center), ~3.82 km away. District drivers: tourism-driven development, urban expansion, agricultural activity. Likely cause: Forest cleared for urban or industrial development (likely driven by Brahmagiri, ~3.82 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Brahmagiri (3.82 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 51.48,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 73,
+          "area_ha": 26.28
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 69,
+          "area_ha": 24.84
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Brahmagiri (3.82 km)"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 23.4,
+      "nearby_features": [
+        {
+          "name": "Pipli",
+          "type": "urban_center",
+          "distance_km": 5.35,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Pipli, ~5.35 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 4 (20.1589\u00b0N, 85.8580\u00b0E), 2016\u21922024. New built-up area: 44.64 ha (23.4 ha from Crops, 21.24 ha from Trees). Why: nearest known feature is Pipli (urban center), ~5.35 km away. District drivers: tourism-driven development, urban expansion, agricultural activity. Likely cause: Urban or industrial expansion onto farmland (likely driven by Pipli, ~5.35 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Pipli (5.35 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 44.64,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 65,
+          "area_ha": 23.4
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 59,
+          "area_ha": 21.24
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Pipli (5.35 km)"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 39.24,
+      "nearby_features": [],
+      "likely_cause": "Forest cleared for urban or industrial development",
+      "confidence": 0.75,
+      "narrative": "Hotspot 5 (19.9961\u00b0N, 85.8210\u00b0E), 2016\u21922024. New built-up area: 42.48 ha (39.24 ha from Trees, 3.24 ha from Crops). Why: no specific nearby feature registered; district drivers are tourism-driven development, urban expansion, agricultural activity. Likely cause: Forest cleared for urban or industrial development. Demographic signal: industrial build-out (plant expansion, workforce housing likely) [no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance]. Confidence: 0.75.",
+      "new_built_area_ha": 42.48,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 109,
+          "area_ha": 39.24
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 9,
+          "area_ha": 3.24
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 49296.600000000006
+}

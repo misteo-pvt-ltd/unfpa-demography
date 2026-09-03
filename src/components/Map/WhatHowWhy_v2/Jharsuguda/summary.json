@@ -1,0 +1,377 @@
+{
+  "district": "Jharsuguda",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 83.8458500369179,
+      "centroid_lat": 21.83026704487687,
+      "centroid_x": 173920.0,
+      "centroid_y": 2417380.0,
+      "score": 574.8220654469915,
+      "area_km2": 1.0,
+      "bounds": [
+        173420.0,
+        2416880.0,
+        174420.0,
+        2417880.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 83.90362802493765,
+      "centroid_lat": 21.84038752704085,
+      "centroid_x": 179920.0,
+      "centroid_y": 2418380.0,
+      "score": 548.5117929619737,
+      "area_km2": 1.0,
+      "bounds": [
+        179420.0,
+        2417880.0,
+        180420.0,
+        2418880.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 83.9995083152898,
+      "centroid_lat": 21.878263943925642,
+      "centroid_x": 189920.0,
+      "centroid_y": 2422380.0,
+      "score": 530.5972822988406,
+      "area_km2": 1.0,
+      "bounds": [
+        189420.0,
+        2421880.0,
+        190420.0,
+        2422880.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 83.99191960759171,
+      "centroid_lat": 21.778842832449584,
+      "centroid_x": 188920.0,
+      "centroid_y": 2411380.0,
+      "score": 521.9382032025605,
+      "area_km2": 1.0,
+      "bounds": [
+        188420.0,
+        2410880.0,
+        189420.0,
+        2411880.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 83.9707001654373,
+      "centroid_lat": 21.868710697980102,
+      "centroid_x": 186920.0,
+      "centroid_y": 2421380.0,
+      "score": 504.1615908574313,
+      "area_km2": 1.0,
+      "bounds": [
+        186420.0,
+        2420880.0,
+        187420.0,
+        2421880.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 29.16,
+      "nearby_features": [
+        {
+          "name": "MCL Belpahar coal mine",
+          "type": "coal_mine",
+          "distance_km": 6.66,
+          "source": "district_context"
+        },
+        {
+          "name": "Belpahar",
+          "type": "urban_center",
+          "distance_km": 6.67,
+          "source": "district_context"
+        },
+        {
+          "name": "Brajrajnagar",
+          "type": "urban_center",
+          "distance_km": 7.67,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (nearest known feature: MCL Belpahar coal mine, ~6.66 km)",
+      "confidence": 0.75,
+      "narrative": "Hotspot 1 (21.8303\u00b0N, 83.8459\u00b0E), 2016\u21922024. New built-up area: 29.16 ha (29.16 ha from Rangeland). Why: nearest known feature is MCL Belpahar coal mine (coal mine), ~6.66 km away. District drivers: coal mining, thermal power generation, aluminium smelting. Likely cause: Urban/industrial expansion onto rangeland (nearest known feature: MCL Belpahar coal mine, ~6.66 km). Demographic signal: mixed industrial + residential footprint [mining_adjacent/residential drivers overlap (MCL Belpahar coal mine (6.66 km); Belpahar (6.67 km))]. Confidence: 0.75.",
+      "new_built_area_ha": 29.16,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 81,
+          "area_ha": 29.16
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "mining_adjacent/residential drivers overlap (MCL Belpahar coal mine (6.66 km); Belpahar (6.67 km))"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 30.24,
+      "nearby_features": [
+        {
+          "name": "Brajrajnagar",
+          "type": "urban_center",
+          "distance_km": 2.33,
+          "source": "district_context"
+        },
+        {
+          "name": "MCL Belpahar coal mine",
+          "type": "coal_mine",
+          "distance_km": 7.81,
+          "source": "district_context"
+        },
+        {
+          "name": "Belpahar",
+          "type": "urban_center",
+          "distance_km": 8.58,
+          "source": "district_context"
+        },
+        {
+          "name": "Banaharpali",
+          "type": "urban_center",
+          "distance_km": 9.59,
+          "source": "district_context"
+        },
+        {
+          "name": "OPGC Banharpali",
+          "type": "thermal_power_plant",
+          "distance_km": 9.59,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban/industrial expansion onto rangeland (likely driven by Brajrajnagar, ~2.33 km away)",
+      "confidence": 0.8999999999999999,
+      "narrative": "Hotspot 2 (21.8404\u00b0N, 83.9036\u00b0E), 2016\u21922024. New built-up area: 30.24 ha (30.24 ha from Rangeland). Why: nearest known feature is Brajrajnagar (urban center), ~2.33 km away. District drivers: coal mining, thermal power generation, aluminium smelting. Likely cause: Urban/industrial expansion onto rangeland (likely driven by Brajrajnagar, ~2.33 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Brajrajnagar (2.33 km)]. Confidence: 0.90.",
+      "new_built_area_ha": 30.24,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 84,
+          "area_ha": 30.24
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Brajrajnagar (2.33 km)"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 30.24,
+      "nearby_features": [
+        {
+          "name": "Vedanta Jharsuguda Smelter",
+          "type": "aluminium_smelter",
+          "distance_km": 1.29,
+          "source": "district_context"
+        },
+        {
+          "name": "Jharsuguda railway junction",
+          "type": "railway_station",
+          "distance_km": 2.3,
+          "source": "district_context"
+        },
+        {
+          "name": "Jharsuguda town",
+          "type": "urban_center",
+          "distance_km": 2.6,
+          "source": "district_context"
+        },
+        {
+          "name": "Vedanta Sesa Sterlite power plant",
+          "type": "thermal_power_plant",
+          "distance_km": 3.32,
+          "source": "district_context"
+        },
+        {
+          "name": "Veer Surendra Sai Airport",
+          "type": "airport",
+          "distance_km": 6.29,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Vedanta Jharsuguda Smelter, ~1.29 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 3 (21.8783\u00b0N, 83.9995\u00b0E), 2016\u21922024. New built-up area: 30.24 ha (30.24 ha from Crops). Why: nearest known feature is Vedanta Jharsuguda Smelter (aluminium smelter), ~1.29 km away. District drivers: coal mining, thermal power generation, aluminium smelting. Likely cause: Urban or industrial expansion onto farmland (likely driven by Vedanta Jharsuguda Smelter, ~1.29 km away). Demographic signal: industrial build-out (plant expansion, workforce housing likely) [dominated by industrial driver(s): Vedanta Jharsuguda Smelter (1.29 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 30.24,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 84,
+          "area_ha": 30.24
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "dominated by industrial driver(s): Vedanta Jharsuguda Smelter (1.29 km)"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 25.56,
+      "nearby_features": [
+        {
+          "name": "Banaharpali",
+          "type": "urban_center",
+          "distance_km": 2.27,
+          "source": "district_context"
+        },
+        {
+          "name": "OPGC Banharpali",
+          "type": "thermal_power_plant",
+          "distance_km": 2.27,
+          "source": "district_context"
+        },
+        {
+          "name": "Vedanta Sesa Sterlite power plant",
+          "type": "thermal_power_plant",
+          "distance_km": 8.13,
+          "source": "district_context"
+        },
+        {
+          "name": "Jharsuguda town",
+          "type": "urban_center",
+          "distance_km": 8.69,
+          "source": "district_context"
+        },
+        {
+          "name": "Brajrajnagar",
+          "type": "urban_center",
+          "distance_km": 9.09,
+          "source": "district_context"
+        },
+        {
+          "name": "Jharsuguda railway junction",
+          "type": "railway_station",
+          "distance_km": 9.22,
+          "source": "district_context"
+        },
+        {
+          "name": "Vedanta Jharsuguda Smelter",
+          "type": "aluminium_smelter",
+          "distance_km": 9.8,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Banaharpali, ~2.27 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 4 (21.7788\u00b0N, 83.9919\u00b0E), 2016\u21922024. New built-up area: 29.16 ha (25.56 ha from Crops, 3.6 ha from Rangeland). Why: nearest known feature is Banaharpali (urban center), ~2.27 km away. District drivers: coal mining, thermal power generation, aluminium smelting. Likely cause: Urban or industrial expansion onto farmland (likely driven by Banaharpali, ~2.27 km away). Demographic signal: mixed industrial + residential footprint [residential/industrial/transport drivers overlap (Banaharpali (2.27 km); OPGC Banharpali (2.27 km))]. Confidence: 0.95.",
+      "new_built_area_ha": 29.16,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 71,
+          "area_ha": 25.56
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 10,
+          "area_ha": 3.6
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "residential/industrial/transport drivers overlap (Banaharpali (2.27 km); OPGC Banharpali (2.27 km))"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 24.84,
+      "nearby_features": [
+        {
+          "name": "Vedanta Jharsuguda Smelter",
+          "type": "aluminium_smelter",
+          "distance_km": 3.03,
+          "source": "district_context"
+        },
+        {
+          "name": "Jharsuguda town",
+          "type": "urban_center",
+          "distance_km": 3.95,
+          "source": "district_context"
+        },
+        {
+          "name": "Jharsuguda railway junction",
+          "type": "railway_station",
+          "distance_km": 4.17,
+          "source": "district_context"
+        },
+        {
+          "name": "Vedanta Sesa Sterlite power plant",
+          "type": "thermal_power_plant",
+          "distance_km": 4.56,
+          "source": "district_context"
+        },
+        {
+          "name": "Brajrajnagar",
+          "type": "urban_center",
+          "distance_km": 7.07,
+          "source": "district_context"
+        },
+        {
+          "name": "Veer Surendra Sai Airport",
+          "type": "airport",
+          "distance_km": 9.38,
+          "source": "district_context"
+        },
+        {
+          "name": "Banaharpali",
+          "type": "urban_center",
+          "distance_km": 9.86,
+          "source": "district_context"
+        },
+        {
+          "name": "OPGC Banharpali",
+          "type": "thermal_power_plant",
+          "distance_km": 9.86,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Vedanta Jharsuguda Smelter, ~3.03 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 5 (21.8687\u00b0N, 83.9707\u00b0E), 2016\u21922024. New built-up area: 27.0 ha (24.84 ha from Crops, 2.16 ha from Rangeland). Why: nearest known feature is Vedanta Jharsuguda Smelter (aluminium smelter), ~3.03 km away. District drivers: coal mining, thermal power generation, aluminium smelting. Likely cause: Urban or industrial expansion onto farmland (likely driven by Vedanta Jharsuguda Smelter, ~3.03 km away). Demographic signal: mixed industrial + residential footprint [industrial/residential/transport drivers overlap (Vedanta Jharsuguda Smelter (3.03 km); Jharsuguda town (3.95 km))]. Confidence: 0.95.",
+      "new_built_area_ha": 27.0,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 69,
+          "area_ha": 24.84
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 6,
+          "area_ha": 2.16
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "industrial/residential/transport drivers overlap (Vedanta Jharsuguda Smelter (3.03 km); Jharsuguda town (3.95 km))"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 36641.520000000004
+}

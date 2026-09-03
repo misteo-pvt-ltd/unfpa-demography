@@ -1,0 +1,211 @@
+{
+  "district": "Sonepur",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 83.96899957165233,
+      "centroid_lat": 20.91337906209591,
+      "centroid_x": 184700.0,
+      "centroid_y": 2315540.0,
+      "score": 667.198876671493,
+      "area_km2": 1.0,
+      "bounds": [
+        184200.0,
+        2315040.0,
+        185200.0,
+        2316040.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 83.9396411573045,
+      "centroid_lat": 20.939933329127015,
+      "centroid_x": 181700.0,
+      "centroid_y": 2318540.0,
+      "score": 628.9239278174937,
+      "area_km2": 1.0,
+      "bounds": [
+        181200.0,
+        2318040.0,
+        182200.0,
+        2319040.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 84.05648605996157,
+      "centroid_lat": 20.860749484580776,
+      "centroid_x": 193700.0,
+      "centroid_y": 2309540.0,
+      "score": 586.0995212886482,
+      "area_km2": 1.0,
+      "bounds": [
+        193200.0,
+        2309040.0,
+        194200.0,
+        2310040.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 83.68055944526508,
+      "centroid_lat": 20.926061447171662,
+      "centroid_x": 154700.0,
+      "centroid_y": 2317540.0,
+      "score": 571.0564313523937,
+      "area_km2": 1.0,
+      "bounds": [
+        154200.0,
+        2317040.0,
+        155200.0,
+        2318040.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 83.99780873999343,
+      "centroid_lat": 20.913888277863293,
+      "centroid_x": 187700.0,
+      "centroid_y": 2315540.0,
+      "score": 558.1453594341874,
+      "area_km2": 1.0,
+      "bounds": [
+        187200.0,
+        2315040.0,
+        188200.0,
+        2316040.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 1.08,
+      "nearby_features": [],
+      "likely_cause": "Urban or industrial expansion onto farmland",
+      "confidence": 0.75,
+      "narrative": "Hotspot 1 (20.9134\u00b0N, 83.9690\u00b0E), 2016\u21922024. New built-up area: 1.08 ha (1.08 ha from Crops). Why: no specific nearby feature registered; district drivers are agricultural activity, urban expansion. Likely cause: Urban or industrial expansion onto farmland. Demographic signal: settlement / peri-urban growth (housing, population inflow) [no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland]. Confidence: 0.75.",
+      "new_built_area_ha": 1.08,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 3,
+          "area_ha": 1.08
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 1.08,
+      "nearby_features": [
+        {
+          "name": "Binka",
+          "type": "urban_center",
+          "distance_km": 9.89,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Binka, ~9.89 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 2 (20.9399\u00b0N, 83.9396\u00b0E), 2016\u21922024. New built-up area: 1.08 ha (1.08 ha from Crops). Why: nearest known feature is Binka (urban center), ~9.89 km away. District drivers: agricultural activity, urban expansion. Likely cause: Urban or industrial expansion onto farmland (likely driven by Binka, ~9.89 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Binka (9.89 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 1.08,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 3,
+          "area_ha": 1.08
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Binka (9.89 km)"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 10.08,
+      "nearby_features": [],
+      "likely_cause": "Urban or industrial expansion onto farmland",
+      "confidence": 0.75,
+      "narrative": "Hotspot 3 (20.8607\u00b0N, 84.0565\u00b0E), 2016\u21922024. New built-up area: 10.08 ha (10.08 ha from Crops). Why: no specific nearby feature registered; district drivers are agricultural activity, urban expansion. Likely cause: Urban or industrial expansion onto farmland. Demographic signal: settlement / peri-urban growth (housing, population inflow) [no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland]. Confidence: 0.75.",
+      "new_built_area_ha": 10.08,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 28,
+          "area_ha": 10.08
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 16.2,
+      "nearby_features": [],
+      "likely_cause": "Urban or industrial expansion onto farmland",
+      "confidence": 0.75,
+      "narrative": "Hotspot 4 (20.9261\u00b0N, 83.6806\u00b0E), 2016\u21922024. New built-up area: 17.28 ha (16.2 ha from Crops, 0.72 ha from Rangeland, 0.36 ha from Trees). Why: no specific nearby feature registered; district drivers are agricultural activity, urban expansion. Likely cause: Urban or industrial expansion onto farmland. Demographic signal: settlement / peri-urban growth (housing, population inflow) [no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland]. Confidence: 0.75.",
+      "new_built_area_ha": 17.28,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 45,
+          "area_ha": 16.2
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 4.32,
+      "nearby_features": [],
+      "likely_cause": "Urban or industrial expansion onto farmland",
+      "confidence": 0.75,
+      "narrative": "Hotspot 5 (20.9139\u00b0N, 83.9978\u00b0E), 2016\u21922024. New built-up area: 4.32 ha (4.32 ha from Crops). Why: no specific nearby feature registered; district drivers are agricultural activity, urban expansion. Likely cause: Urban or industrial expansion onto farmland. Demographic signal: settlement / peri-urban growth (housing, population inflow) [no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland]. Confidence: 0.75.",
+      "new_built_area_ha": 4.32,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 12,
+          "area_ha": 4.32
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "no registered driver nearby; Crops\u2192Built transition suggests peri-urban/village expansion onto farmland"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 48475.44
+}

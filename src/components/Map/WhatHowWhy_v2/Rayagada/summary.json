@@ -1,0 +1,255 @@
+{
+  "district": "Rayagada",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 83.40553750833364,
+      "centroid_lat": 19.260269205998267,
+      "centroid_x": 122080.0,
+      "centroid_y": 2133540.0,
+      "score": 730.506438447861,
+      "area_km2": 1.0,
+      "bounds": [
+        121580.0,
+        2133040.0,
+        122580.0,
+        2134040.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 83.45764680769005,
+      "centroid_lat": 19.486881315162663,
+      "centroid_x": 128080.0,
+      "centroid_y": 2158540.0,
+      "score": 708.8934078021266,
+      "area_km2": 1.0,
+      "bounds": [
+        127580.0,
+        2158040.0,
+        128580.0,
+        2159040.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 83.39800791944735,
+      "centroid_lat": 19.169886897877895,
+      "centroid_x": 121080.0,
+      "centroid_y": 2123540.0,
+      "score": 677.733083687257,
+      "area_km2": 1.0,
+      "bounds": [
+        120580.0,
+        2123040.0,
+        121580.0,
+        2124040.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 83.87431803254537,
+      "centroid_lat": 19.593855095101993,
+      "centroid_x": 172080.0,
+      "centroid_y": 2169540.0,
+      "score": 602.5225913089234,
+      "area_km2": 1.0,
+      "bounds": [
+        171580.0,
+        2169040.0,
+        172580.0,
+        2170040.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 83.48703675620051,
+      "centroid_lat": 19.8845014135828,
+      "centroid_x": 132080.0,
+      "centroid_y": 2202540.0,
+      "score": 556.6997408010066,
+      "area_km2": 1.0,
+      "bounds": [
+        131580.0,
+        2202040.0,
+        132580.0,
+        2203040.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 15.12,
+      "nearby_features": [],
+      "likely_cause": "Urban/industrial expansion onto rangeland",
+      "confidence": 0.7,
+      "narrative": "Hotspot 1 (19.2603\u00b0N, 83.4055\u00b0E), 2016\u21922024. New built-up area: 25.92 ha (15.12 ha from Rangeland, 9.72 ha from Trees, 1.08 ha from Crops). Why: no specific nearby feature registered; district drivers are bauxite mining, paper mills, urban expansion. Likely cause: Urban/industrial expansion onto rangeland. Demographic signal: mixed industrial + residential footprint [no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion]. Confidence: 0.70.",
+      "new_built_area_ha": 25.92,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 42,
+          "area_ha": 15.12
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 27,
+          "area_ha": 9.72
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 3,
+          "area_ha": 1.08
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 12.24,
+      "nearby_features": [
+        {
+          "name": "Bissamcuttack",
+          "type": "urban_center",
+          "distance_km": 5.54,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by Bissamcuttack, ~5.54 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 2 (19.4869\u00b0N, 83.4576\u00b0E), 2016\u21922024. New built-up area: 19.8 ha (12.24 ha from Crops, 7.56 ha from Trees). Why: nearest known feature is Bissamcuttack (urban center), ~5.54 km away. District drivers: bauxite mining, paper mills, urban expansion. Likely cause: Urban or industrial expansion onto farmland (likely driven by Bissamcuttack, ~5.54 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Bissamcuttack (5.54 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 19.8,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 34,
+          "area_ha": 12.24
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 21,
+          "area_ha": 7.56
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Bissamcuttack (5.54 km)"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Crops",
+      "dominant_to": "Built",
+      "transition_area_ha": 14.76,
+      "nearby_features": [
+        {
+          "name": "JK Paper Mills Rayagada",
+          "type": "industrial",
+          "distance_km": 1.67,
+          "source": "district_context"
+        },
+        {
+          "name": "Rayagada town",
+          "type": "urban_center",
+          "distance_km": 2.31,
+          "source": "district_context"
+        },
+        {
+          "name": "Rayagada railway junction",
+          "type": "railway_station",
+          "distance_km": 2.31,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Urban or industrial expansion onto farmland (likely driven by JK Paper Mills Rayagada, ~1.67 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 3 (19.1699\u00b0N, 83.3980\u00b0E), 2016\u21922024. New built-up area: 22.68 ha (14.76 ha from Crops, 7.92 ha from Rangeland). Why: nearest known feature is JK Paper Mills Rayagada (industrial), ~1.67 km away. District drivers: bauxite mining, paper mills, urban expansion. Likely cause: Urban or industrial expansion onto farmland (likely driven by JK Paper Mills Rayagada, ~1.67 km away). Demographic signal: mixed industrial + residential footprint [industrial/residential/transport drivers overlap (JK Paper Mills Rayagada (1.67 km); Rayagada town (2.31 km))]. Confidence: 0.95.",
+      "new_built_area_ha": 22.68,
+      "from_class_breakdown": [
+        {
+          "from_label": "Crops",
+          "pixel_count": 41,
+          "area_ha": 14.76
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 22,
+          "area_ha": 7.92
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "industrial/residential/transport drivers overlap (JK Paper Mills Rayagada (1.67 km); Rayagada town (2.31 km))"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 11.52,
+      "nearby_features": [],
+      "likely_cause": "Urban/industrial expansion onto rangeland",
+      "confidence": 0.7,
+      "narrative": "Hotspot 4 (19.5939\u00b0N, 83.8743\u00b0E), 2016\u21922024. New built-up area: 19.8 ha (11.52 ha from Rangeland, 5.04 ha from Crops, 3.24 ha from Trees). Why: no specific nearby feature registered; district drivers are bauxite mining, paper mills, urban expansion. Likely cause: Urban/industrial expansion onto rangeland. Demographic signal: mixed industrial + residential footprint [no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion]. Confidence: 0.70.",
+      "new_built_area_ha": 19.8,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 32,
+          "area_ha": 11.52
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 14,
+          "area_ha": 5.04
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 9,
+          "area_ha": 3.24
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Built",
+      "transition_area_ha": 10.44,
+      "nearby_features": [],
+      "likely_cause": "Urban/industrial expansion onto rangeland",
+      "confidence": 0.7,
+      "narrative": "Hotspot 5 (19.8845\u00b0N, 83.4870\u00b0E), 2016\u21922024. New built-up area: 10.8 ha (10.44 ha from Rangeland, 0.36 ha from Trees). Why: no specific nearby feature registered; district drivers are bauxite mining, paper mills, urban expansion. Likely cause: Urban/industrial expansion onto rangeland. Demographic signal: mixed industrial + residential footprint [no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion]. Confidence: 0.70.",
+      "new_built_area_ha": 10.8,
+      "from_class_breakdown": [
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 29,
+          "area_ha": 10.44
+        },
+        {
+          "from_label": "Trees",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "mixed",
+      "settlement_rationale": "no registered driver nearby; Rangeland\u2192Built transition could be rural settlement or industrial expansion"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 180491.75999999992
+}

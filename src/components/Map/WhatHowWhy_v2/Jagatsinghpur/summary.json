@@ -1,0 +1,299 @@
+{
+  "district": "Jagatsinghpur",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 86.58027702800179,
+      "centroid_lat": 20.23497924668964,
+      "centroid_x": 456160.0,
+      "centroid_y": 2237540.0,
+      "score": 640.8355160225183,
+      "area_km2": 1.0,
+      "bounds": [
+        455660.0,
+        2237040.0,
+        456660.0,
+        2238040.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 86.09167005019366,
+      "centroid_lat": 20.296379474186793,
+      "centroid_x": 405160.0,
+      "centroid_y": 2244540.0,
+      "score": 534.555220507551,
+      "area_km2": 1.0,
+      "bounds": [
+        404660.0,
+        2244040.0,
+        405660.0,
+        2245040.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 86.48465896503059,
+      "centroid_lat": 20.19857978621207,
+      "centroid_x": 446160.0,
+      "centroid_y": 2233540.0,
+      "score": 487.8174885874614,
+      "area_km2": 1.0,
+      "bounds": [
+        445660.0,
+        2233040.0,
+        446660.0,
+        2234040.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 86.503543620937,
+      "centroid_lat": 20.279959792776427,
+      "centroid_x": 448160.0,
+      "centroid_y": 2242540.0,
+      "score": 466.6402980334824,
+      "area_km2": 1.0,
+      "bounds": [
+        447660.0,
+        2242040.0,
+        448660.0,
+        2243040.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 86.20677498838123,
+      "centroid_lat": 20.26079592073714,
+      "centroid_x": 417160.0,
+      "centroid_y": 2240540.0,
+      "score": 460.2083880091086,
+      "area_km2": 1.0,
+      "bounds": [
+        416660.0,
+        2240040.0,
+        417660.0,
+        2241040.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 26.28,
+      "nearby_features": [
+        {
+          "name": "IOCL Paradip Refinery",
+          "type": "refinery",
+          "distance_km": 5.75,
+          "source": "district_context"
+        },
+        {
+          "name": "Paradip Phosphates",
+          "type": "industrial",
+          "distance_km": 8.9,
+          "source": "district_context"
+        },
+        {
+          "name": "Cuttack-Paradip railway",
+          "type": "railway_station",
+          "distance_km": 9.6,
+          "source": "district_context"
+        },
+        {
+          "name": "Paradip Port",
+          "type": "port",
+          "distance_km": 9.85,
+          "source": "district_context"
+        },
+        {
+          "name": "Paradeep town",
+          "type": "urban_center",
+          "distance_km": 9.85,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by IOCL Paradip Refinery, ~5.75 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 1 (20.2350\u00b0N, 86.5803\u00b0E), 2016\u21922024. New built-up area: 43.92 ha (26.28 ha from Trees, 16.2 ha from Rangeland, 1.44 ha from Crops). Why: nearest known feature is IOCL Paradip Refinery (refinery), ~5.75 km away. District drivers: port & industrial activity, petrochemical operations, urban expansion. Likely cause: Forest cleared for urban or industrial development (likely driven by IOCL Paradip Refinery, ~5.75 km away). Demographic signal: industrial build-out (plant expansion, workforce housing likely) [dominated by industrial driver(s): IOCL Paradip Refinery (5.75 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 43.92,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 73,
+          "area_ha": 26.28
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 45,
+          "area_ha": 16.2
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 4,
+          "area_ha": 1.44
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "dominated by industrial driver(s): IOCL Paradip Refinery (5.75 km)"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 41.76,
+      "nearby_features": [
+        {
+          "name": "Jagatsinghpur town",
+          "type": "urban_center",
+          "distance_km": 9.25,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Jagatsinghpur town, ~9.25 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 2 (20.2964\u00b0N, 86.0917\u00b0E), 2016\u21922024. New built-up area: 43.92 ha (41.76 ha from Trees, 2.16 ha from Crops). Why: nearest known feature is Jagatsinghpur town (urban center), ~9.25 km away. District drivers: port & industrial activity, petrochemical operations, urban expansion. Likely cause: Forest cleared for urban or industrial development (likely driven by Jagatsinghpur town, ~9.25 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Jagatsinghpur town (9.25 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 43.92,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 116,
+          "area_ha": 41.76
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 6,
+          "area_ha": 2.16
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Jagatsinghpur town (9.25 km)"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 28.44,
+      "nearby_features": [
+        {
+          "name": "Erasama",
+          "type": "urban_center",
+          "distance_km": 2.02,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Erasama, ~2.02 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 3 (20.1986\u00b0N, 86.4847\u00b0E), 2016\u21922024. New built-up area: 35.28 ha (28.44 ha from Trees, 6.12 ha from Rangeland, 0.72 ha from Crops). Why: nearest known feature is Erasama (urban center), ~2.02 km away. District drivers: port & industrial activity, petrochemical operations, urban expansion. Likely cause: Forest cleared for urban or industrial development (likely driven by Erasama, ~2.02 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Erasama (2.02 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 35.28,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 79,
+          "area_ha": 28.44
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 17,
+          "area_ha": 6.12
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Erasama (2.02 km)"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 17.64,
+      "nearby_features": [
+        {
+          "name": "Kujang",
+          "type": "urban_center",
+          "distance_km": 6.21,
+          "source": "district_context"
+        },
+        {
+          "name": "Erasama",
+          "type": "urban_center",
+          "distance_km": 7.34,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Kujang, ~6.21 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 4 (20.2800\u00b0N, 86.5035\u00b0E), 2016\u21922024. New built-up area: 27.0 ha (17.64 ha from Trees, 6.84 ha from Rangeland, 2.52 ha from Crops). Why: nearest known feature is Kujang (urban center), ~6.21 km away. District drivers: port & industrial activity, petrochemical operations, urban expansion. Likely cause: Forest cleared for urban or industrial development (likely driven by Kujang, ~6.21 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Kujang (6.21 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 27.0,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 49,
+          "area_ha": 17.64
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 19,
+          "area_ha": 6.84
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 7,
+          "area_ha": 2.52
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Kujang (6.21 km)"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 28.44,
+      "nearby_features": [
+        {
+          "name": "Jagatsinghpur town",
+          "type": "urban_center",
+          "distance_km": 3.89,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Jagatsinghpur town, ~3.89 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 5 (20.2608\u00b0N, 86.2068\u00b0E), 2016\u21922024. New built-up area: 39.96 ha (28.44 ha from Trees, 11.52 ha from Crops). Why: nearest known feature is Jagatsinghpur town (urban center), ~3.89 km away. District drivers: port & industrial activity, petrochemical operations, urban expansion. Likely cause: Forest cleared for urban or industrial development (likely driven by Jagatsinghpur town, ~3.89 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Jagatsinghpur town (3.89 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 39.96,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 79,
+          "area_ha": 28.44
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 32,
+          "area_ha": 11.52
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Jagatsinghpur town (3.89 km)"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 26420.4
+}

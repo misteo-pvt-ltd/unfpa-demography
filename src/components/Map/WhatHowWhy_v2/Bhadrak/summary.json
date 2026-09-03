@@ -1,0 +1,195 @@
+{
+  "district": "Bhadrak",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 86.89916864689285,
+      "centroid_lat": 20.989781179691953,
+      "centroid_x": 489520.0,
+      "centroid_y": 2321020.0,
+      "score": 1481.370233476162,
+      "area_km2": 1.0,
+      "bounds": [
+        489020.0,
+        2320520.0,
+        490020.0,
+        2321520.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 86.90881734473464,
+      "centroid_lat": 20.944608244295193,
+      "centroid_x": 490520.0,
+      "centroid_y": 2316020.0,
+      "score": 1135.6938239047304,
+      "area_km2": 1.0,
+      "bounds": [
+        490020.0,
+        2315520.0,
+        491020.0,
+        2316520.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 86.75512842404642,
+      "centroid_lat": 20.81795691847308,
+      "centroid_x": 474520.0,
+      "centroid_y": 2302020.0,
+      "score": 1045.8151529729366,
+      "area_km2": 1.0,
+      "bounds": [
+        474020.0,
+        2301520.0,
+        475020.0,
+        2302520.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 86.95693266316023,
+      "centroid_lat": 20.863305438340987,
+      "centroid_x": 495520.0,
+      "centroid_y": 2307020.0,
+      "score": 1031.2123751789331,
+      "area_km2": 1.0,
+      "bounds": [
+        495020.0,
+        2306520.0,
+        496020.0,
+        2307520.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 86.79342145323474,
+      "centroid_lat": 20.92643620566515,
+      "centroid_x": 478520.0,
+      "centroid_y": 2314020.0,
+      "score": 979.6065191626549,
+      "area_km2": 1.0,
+      "bounds": [
+        478020.0,
+        2313520.0,
+        479020.0,
+        2314520.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Trees",
+      "dominant_to": "Water",
+      "transition_area_ha": 1.08,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Water",
+      "confidence": 0.7,
+      "narrative": "Hotspot 1 (20.9898\u00b0N, 86.8992\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Trees \u2192 Water (1.1 ha). Why: no specific nearby feature registered; district drivers are agricultural activity, coastal processes, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Trees \u2192 Water. Demographic signal: unclassified \u2014 needs ground-truth [no Built-class conversion inside hotspot; spectral change without a clear land-cover flip]. Confidence: 0.70.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "unclassified",
+      "settlement_rationale": "no Built-class conversion inside hotspot; spectral change without a clear land-cover flip"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Trees",
+      "transition_area_ha": 9.72,
+      "nearby_features": [],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Rangeland \u2192 Trees",
+      "confidence": 0.3,
+      "narrative": "Hotspot 2 (20.9446\u00b0N, 86.9088\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Rangeland \u2192 Trees (9.7 ha). Why: no specific nearby feature registered; district drivers are agricultural activity, coastal processes, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Rangeland \u2192 Trees. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Rangeland \u2192 Trees is canopy regrowth / reclamation, not settlement]. Confidence: 0.30.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Rangeland \u2192 Trees is canopy regrowth / reclamation, not settlement"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 29.52,
+      "nearby_features": [
+        {
+          "name": "Chandbali",
+          "type": "urban_center",
+          "distance_km": 3.89,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Chandbali, ~3.89 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 3 (20.8180\u00b0N, 86.7551\u00b0E), 2016\u21922024. New built-up area: 29.52 ha (29.52 ha from Trees). Why: nearest known feature is Chandbali (urban center), ~3.89 km away. District drivers: agricultural activity, coastal processes, urban expansion. Likely cause: Forest cleared for urban or industrial development (likely driven by Chandbali, ~3.89 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Chandbali (3.89 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 29.52,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 82,
+          "area_ha": 29.52
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Chandbali (3.89 km)"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Rangeland",
+      "dominant_to": "Bare",
+      "transition_area_ha": 1.44,
+      "nearby_features": [
+        {
+          "name": "Dhamra Port",
+          "type": "port",
+          "distance_km": 8.26,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Spectral / vegetation change without new Built footprint \u2014 Rangeland \u2192 Bare",
+      "confidence": 0.8,
+      "narrative": "Hotspot 4 (20.8633\u00b0N, 86.9569\u00b0E), 2016\u21922024. No net new built-up inside hotspot; dominant change: Rangeland \u2192 Bare (1.4 ha). Why: nearest known feature is Dhamra Port (port), ~8.26 km away. District drivers: agricultural activity, coastal processes, urban expansion. Likely cause: Spectral / vegetation change without new Built footprint \u2014 Rangeland \u2192 Bare. Demographic signal: vegetation-cover change (canopy loss, regrowth, or mining footprint) \u2014 not settlement growth [no new Built-class pixels; Rangeland \u2192 Bare indicates canopy loss / mining-pit advance, not settlement]. Confidence: 0.80.",
+      "new_built_area_ha": 0.0,
+      "from_class_breakdown": [],
+      "settlement_type": "vegetation",
+      "settlement_rationale": "no new Built-class pixels; Rangeland \u2192 Bare indicates canopy loss / mining-pit advance, not settlement"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 14.4,
+      "nearby_features": [],
+      "likely_cause": "Forest cleared for urban or industrial development",
+      "confidence": 0.75,
+      "narrative": "Hotspot 5 (20.9264\u00b0N, 86.7934\u00b0E), 2016\u21922024. New built-up area: 17.28 ha (14.4 ha from Trees, 2.88 ha from Crops). Why: no specific nearby feature registered; district drivers are agricultural activity, coastal processes, urban expansion. Likely cause: Forest cleared for urban or industrial development. Demographic signal: industrial build-out (plant expansion, workforce housing likely) [no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance]. Confidence: 0.75.",
+      "new_built_area_ha": 17.28,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 40,
+          "area_ha": 14.4
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 8,
+          "area_ha": 2.88
+        }
+      ],
+      "settlement_type": "industrial",
+      "settlement_rationale": "no registered driver nearby; Trees\u2192Built transition in a forest-dominated district suggests frontier industrial/mining clearance"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 26024.040000000005
+}

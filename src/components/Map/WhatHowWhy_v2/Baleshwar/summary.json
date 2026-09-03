@@ -1,0 +1,264 @@
+{
+  "district": "Baleshwar",
+  "year1": 2016,
+  "year2": 2024,
+  "scheme": "dynamic_world",
+  "num_hotspots": 5,
+  "hotspots": [
+    {
+      "rank": 1,
+      "centroid_lon": 87.46652644246137,
+      "centroid_lat": 21.628676223631953,
+      "centroid_x": 548280.0,
+      "centroid_y": 2391800.0,
+      "score": 855.7364399880171,
+      "area_km2": 1.0,
+      "bounds": [
+        547780.0,
+        2391300.0,
+        548780.0,
+        2392300.0
+      ]
+    },
+    {
+      "rank": 2,
+      "centroid_lon": 87.43770175279181,
+      "centroid_lat": 21.682963120010555,
+      "centroid_x": 545280.0,
+      "centroid_y": 2397800.0,
+      "score": 812.1996899135411,
+      "area_km2": 1.0,
+      "bounds": [
+        544780.0,
+        2397300.0,
+        545780.0,
+        2398300.0
+      ]
+    },
+    {
+      "rank": 3,
+      "centroid_lon": 87.38936986413812,
+      "centroid_lat": 21.68308358524485,
+      "centroid_x": 540280.0,
+      "centroid_y": 2397800.0,
+      "score": 767.4540538733709,
+      "area_km2": 1.0,
+      "bounds": [
+        539780.0,
+        2397300.0,
+        540780.0,
+        2398300.0
+      ]
+    },
+    {
+      "rank": 4,
+      "centroid_lon": 87.4375927309908,
+      "centroid_lat": 21.64682444163706,
+      "centroid_x": 545280.0,
+      "centroid_y": 2393800.0,
+      "score": 754.5650897473097,
+      "area_km2": 1.0,
+      "bounds": [
+        544780.0,
+        2393300.0,
+        545780.0,
+        2394300.0
+      ]
+    },
+    {
+      "rank": 5,
+      "centroid_lon": 87.41852575588588,
+      "centroid_lat": 21.737220854132335,
+      "centroid_x": 543280.0,
+      "centroid_y": 2403800.0,
+      "score": 732.9364435416646,
+      "area_km2": 1.0,
+      "bounds": [
+        542780.0,
+        2403300.0,
+        543780.0,
+        2404300.0
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "hotspot_rank": 1,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 39.24,
+      "nearby_features": [
+        {
+          "name": "Bhograi",
+          "type": "urban_center",
+          "distance_km": 6.8,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Bhograi, ~6.8 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 1 (21.6287\u00b0N, 87.4665\u00b0E), 2016\u21922024. New built-up area: 39.96 ha (39.24 ha from Trees, 0.72 ha from Rangeland). Why: nearest known feature is Bhograi (urban center), ~6.8 km away. District drivers: agricultural activity, urban expansion, coastal processes. Likely cause: Forest cleared for urban or industrial development (likely driven by Bhograi, ~6.8 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Bhograi (6.8 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 39.96,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 109,
+          "area_ha": 39.24
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Bhograi (6.8 km)"
+    },
+    {
+      "hotspot_rank": 2,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 38.88,
+      "nearby_features": [
+        {
+          "name": "Bhograi",
+          "type": "urban_center",
+          "distance_km": 3.84,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Bhograi, ~3.84 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 2 (21.6830\u00b0N, 87.4377\u00b0E), 2016\u21922024. New built-up area: 41.76 ha (38.88 ha from Trees, 1.8 ha from Crops, 0.72 ha from Rangeland). Why: nearest known feature is Bhograi (urban center), ~3.84 km away. District drivers: agricultural activity, urban expansion, coastal processes. Likely cause: Forest cleared for urban or industrial development (likely driven by Bhograi, ~3.84 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Bhograi (3.84 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 41.76,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 108,
+          "area_ha": 38.88
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 5,
+          "area_ha": 1.8
+        },
+        {
+          "from_label": "Rangeland",
+          "pixel_count": 2,
+          "area_ha": 0.72
+        },
+        {
+          "from_label": "Water",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Bhograi (3.84 km)"
+    },
+    {
+      "hotspot_rank": 3,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 51.12,
+      "nearby_features": [
+        {
+          "name": "Bhograi",
+          "type": "urban_center",
+          "distance_km": 3.34,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Bhograi, ~3.34 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 3 (21.6831\u00b0N, 87.3894\u00b0E), 2016\u21922024. New built-up area: 57.24 ha (51.12 ha from Trees, 5.76 ha from Crops, 0.36 ha from Flooded vegetation). Why: nearest known feature is Bhograi (urban center), ~3.34 km away. District drivers: agricultural activity, urban expansion, coastal processes. Likely cause: Forest cleared for urban or industrial development (likely driven by Bhograi, ~3.34 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Bhograi (3.34 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 57.24,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 142,
+          "area_ha": 51.12
+        },
+        {
+          "from_label": "Crops",
+          "pixel_count": 16,
+          "area_ha": 5.76
+        },
+        {
+          "from_label": "Flooded vegetation",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Bhograi (3.34 km)"
+    },
+    {
+      "hotspot_rank": 4,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 38.52,
+      "nearby_features": [
+        {
+          "name": "Bhograi",
+          "type": "urban_center",
+          "distance_km": 3.21,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Bhograi, ~3.21 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 4 (21.6468\u00b0N, 87.4376\u00b0E), 2016\u21922024. New built-up area: 38.52 ha (38.52 ha from Trees). Why: nearest known feature is Bhograi (urban center), ~3.21 km away. District drivers: agricultural activity, urban expansion, coastal processes. Likely cause: Forest cleared for urban or industrial development (likely driven by Bhograi, ~3.21 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Bhograi (3.21 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 38.52,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 107,
+          "area_ha": 38.52
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Bhograi (3.21 km)"
+    },
+    {
+      "hotspot_rank": 5,
+      "dominant_from": "Trees",
+      "dominant_to": "Built",
+      "transition_area_ha": 51.12,
+      "nearby_features": [
+        {
+          "name": "Bhograi",
+          "type": "urban_center",
+          "distance_km": 8.63,
+          "source": "district_context"
+        }
+      ],
+      "likely_cause": "Forest cleared for urban or industrial development (likely driven by Bhograi, ~8.63 km away)",
+      "confidence": 0.95,
+      "narrative": "Hotspot 5 (21.7372\u00b0N, 87.4185\u00b0E), 2016\u21922024. New built-up area: 51.48 ha (51.12 ha from Trees, 0.36 ha from Water). Why: nearest known feature is Bhograi (urban center), ~8.63 km away. District drivers: agricultural activity, urban expansion, coastal processes. Likely cause: Forest cleared for urban or industrial development (likely driven by Bhograi, ~8.63 km away). Demographic signal: settlement / peri-urban growth (housing, population inflow) [dominated by residential driver(s): Bhograi (8.63 km)]. Confidence: 0.95.",
+      "new_built_area_ha": 51.48,
+      "from_class_breakdown": [
+        {
+          "from_label": "Trees",
+          "pixel_count": 142,
+          "area_ha": 51.12
+        },
+        {
+          "from_label": "Water",
+          "pixel_count": 1,
+          "area_ha": 0.36
+        }
+      ],
+      "settlement_type": "residential",
+      "settlement_rationale": "dominated by residential driver(s): Bhograi (8.63 km)"
+    }
+  ],
+  "weights": {
+    "ndvi_delta": 0.15,
+    "ndbi_delta": 0.35,
+    "landcover_transition": 0.4,
+    "mndwi_delta": 0.0,
+    "nightlights_delta": 0.1
+  },
+  "total_transition_area_ha": 47737.08000000001
+}
